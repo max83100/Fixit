@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Feedback">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Здесь вы можете отправить нам ваши предложения по улучшению или ваши замечания"
+        android:textColor="#101010"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/name_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Введите ваше имя"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/email_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Введите вашу почту для связи"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/number_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Введите ваш номер (по  желанию)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/text_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:hint="Введите ваши предложения или замечания"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/send_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="Отправить" />
+</LinearLayout>

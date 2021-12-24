@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menu_java.Contacts">
+
+
+
+        <TextView
+            android:id="@+id/contacts_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:text="Информация о том как вы можете с нами связвться"
+            android:textColor="#101010"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/common_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Обший телефон"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/common_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingBottom="10dp"
+        android:text="+7 (800) 500-32-43"
+        android:textColor="@color/action"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/common_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingBottom="20dp"
+        android:text="info@grovers.ru"
+        android:textColor="@color/action"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/service_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Сервисный центр"
+        android:textColor="#0E0E0E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/service_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingBottom="10dp"
+        android:text="service@grovers.ru"
+        android:textColor="@color/action"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/service_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingBottom="10dp"
+        android:text="+7 (831) 2-808-333 (доб. 121)"
+        android:textColor="@color/action"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/service_adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="г. Нижний Новгород,\n  ул. Республиканская, д. 24"
+        android:textColor="@color/action"
+        android:textSize="20sp" />
+
+    </LinearLayout>
+

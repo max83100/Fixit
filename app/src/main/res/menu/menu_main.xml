@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fixit.MainActivity">
+    <item
+        android:id="@+id/info"
+        android:orderInCategory="100"
+        android:title="Информация о приложении"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/service_locate"
+        android:orderInCategory="100"
+        android:title="Адреса сервисных центров"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/contacts"
+        android:orderInCategory="100"
+        android:title="Наши контакты"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/order_for_repair"
+        android:orderInCategory="100"
+        android:title="Оформить заявку на ремонт"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/send_email"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_email"
+        android:title="Отправить письмо с предложениями"
+        app:showAsAction="ifRoom" />
+</menu>

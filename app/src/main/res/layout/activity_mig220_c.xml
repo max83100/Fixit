@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mig.MIG200C">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-167dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/warning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/warning_check"/>
+
+            <Button
+                android:id="@+id/linkmig220c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_shape"
+                android:layout_gravity="center"
+                android:onClick="onClick"
+                android:text="@string/download" />
+
+            <Button
+                android:id="@+id/webmig220c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_shape"
+                android:onClick="onClick"
+                android:text="Обзор и характеристики" />
+
+            <TextView
+                android:id="@+id/hf_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Не работает осцилятор"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/hf_dont_work"
+                android:layout_width="397dp"
+                android:layout_height="283dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/hf_dont_work" />
+
+            <TextView
+                android:id="@+id/hf_resolve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pfc_dont_work" />
+
+            <TextView
+                android:id="@+id/motor_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Не работает подача проволоки"
+                android:textColor="#050505"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/motor_power_pcb"
+                android:layout_width="399dp"
+                android:layout_height="308dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/motor_dont_work_power_pcb" />
+
+            <TextView
+                android:id="@+id/motor_solve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если у вас при замыкании контактов на евроразъёме срабатывает клапан но мотор не работает то замените микросхемы обозначенные на фото." />
+
+            <ImageView
+                android:id="@+id/motor_controlpcb"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/motor_dont_work" />
+
+            <TextView
+                android:id="@+id/motor_solve2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если у вас при замыкании контактов евроразъёма вообще нет никакой реакции вам нужно заменить элементы отмеченные не фото" />
+
+            <TextView
+                android:id="@+id/pfc_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="При включении сразу показывает ошибку"
+                android:textColor="#050505"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/pfc_error"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/pfclocate" />
+
+            <TextView
+                android:id="@+id/pfc_resolve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Проверьте транзисторы отвечающие за работу PFC. Так же ошибку может вызывать повреждение первичного или вторичного инвертора." />
+
+            <TextView
+                android:id="@+id/ac_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Не работает режим АС"
+                android:textColor="#050505"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/ac_dont_work"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/aclocate" />
+
+            <TextView
+                android:id="@+id/ac_resolve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Проверьте транзисторы отмечающие за режим АС. Так же проверьте сигналы на шим контроллерах находящихся в нижней части платы " />
+
+            <TextView
+                android:id="@+id/dc_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Не работает режим DС"
+                android:textColor="#050505"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/dc_dont_work"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/dclocate" />
+
+            <TextView
+                android:id="@+id/dc_resolve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Проверьте транзисторы отмечающие за режим DС. Так же проверьте сигналы на шим контроллерах находящихся в верхней части платы " />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fixit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/new_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FixIt">
+        <activity
+            android:name=".mig.MIG200C"
+            android:exported="false" />
+        <activity
+            android:name=".tig.WSME200W"
+            android:exported="false"
+            android:label="WSME 200W" />
+        <activity
+            android:name=".tig.WSME315WC"
+            android:exported="false"
+            android:label="WSME 315WC" />
+        <activity
+            android:name=".Feedback"
+            android:exported="false"
+            android:label="Обратная связь" />
+        <activity
+            android:name=".Order_for_repair"
+            android:exported="false"
+            android:label="Заявка на ремонт" />
+        <activity
+            android:name=".menu_java.Service_locate"
+            android:label="Адреса сервисных центров" />
+        <activity
+            android:name=".menu_java.Contacts"
+            android:label="Контакты" />
+        <activity
+            android:name=".menu_java.Info"
+            android:label="Информация о приложении" />
+        <activity
+            android:name=".TIG_catalog"
+            android:label="Аргонодуговая сварка" />
+        <activity
+            android:name=".MIG_catalog"
+            android:label="Полуавтоматическая сварка" />
+        <activity
+            android:name=".CUT_catalog"
+            android:label="Плазменная резка" />
+        <activity
+            android:name=".ARC_catalog"
+            android:label="Ручная дуговая сварка" />
+        <activity
+            android:name=".Splash_screen"
+            android:theme="@style/Theme.FixIt.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".tig.TIG200_DC"
+            android:label="TIG 200DC" />
+        <activity
+            android:name=".arc.ENERGY_ARC220"
+            android:label="ENERGY ARC 220" />
+        <activity
+            android:name=".arc.ENERGY_ARC160"
+            android:label="ENERGY ARC 160" />
+        <activity
+            android:name=".mig.ENERGY_MIG160_200"
+            android:label="ENERGY MIG 160-200" />
+        <activity
+            android:name=".mig.MIG500W"
+            android:label="MIG 500W" />
+        <activity
+            android:name=".tig.ENERGY_TIG180"
+            android:label="ENERGY TIG 180" />
+        <activity
+            android:name=".cut.CUT45P"
+            android:label="CUT 45P" />
+        <activity
+            android:name=".cut.CUT40"
+            android:label="CUT 40" />
+        <activity
+            android:name=".cut.CUT100S"
+            android:label="CUT 100S" />
+        <activity
+            android:name=".arc.ARC400"
+            android:label="ARC 400" />
+        <activity
+            android:name=".cut.CUT120"
+            android:label="CUT 120" />
+        <activity
+            android:name=".cut.CUT60"
+            android:label="CUT 60" />
+        <activity
+            android:name=".mig.MIG315T"
+            android:label="MIG 315T" />
+        <activity
+            android:name=".mig.MIG295"
+            android:label="MIG 295" />
+        <activity
+            android:name=".mig.MIG350"
+            android:label="MIG 350-500" />
+        <activity
+            android:name=".mig.MIG250"
+            android:label="MIG 250" />
+        <activity
+            android:name=".cut.CUT40COM"
+            android:label="CUT 40COM" />
+        <activity
+            android:name=".mig.MIG200P"
+            android:label="MIG 200P-MIG 200C" />
+        <activity
+            android:name=".mig.MIG200"
+            android:label="MIG 200" />
+        <activity
+            android:name=".tig.ENERGY_TIG200"
+            android:label="ENERGY TIG 200" />
+        <activity
+            android:name=".tig.WSME200"
+            android:label="WSME 200" />
+        <activity
+            android:name=".tig.WSME315W"
+            android:label="WSME 315W" />
+        <activity
+            android:name=".tig.WSME200P"
+            android:label="WSME 200P" />
+        <activity
+            android:name=".tig.WSME200E"
+            android:label="WSME 200E" />
+        <activity
+            android:name=".mig.MULTIMIG200PFC"
+            android:label="MULTIMIG 200PFC" />
+        <activity
+            android:name=".mig.MIG220C"
+            android:label="MIG 220C" />
+    </application>
+
+</manifest>

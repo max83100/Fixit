@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.fixit.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/to_ARC_catalog"
+            app:destination="@id/ARC_catalog" />
+        <action
+            android:id="@+id/to_CUT_catalog2"
+            app:destination="@id/CUT_catalog" />
+        <action
+            android:id="@+id/to_MIG_catalog"
+            app:destination="@id/MIG_catalog" />
+        <action
+            android:id="@+id/to_TIG_catalog"
+            app:destination="@id/TIG_catalog" />
+    </fragment>
+    <activity
+        android:id="@+id/CUT_catalog"
+        android:name="com.example.fixit.CUT_catalog"
+        android:label="activity_cut_catalog"
+        tools:layout="@layout/activity_cut_catalog" />
+    <activity
+        android:id="@+id/MIG_catalog"
+        android:name="com.example.fixit.MIG_catalog"
+        android:label="activity_mig_catalog"
+        tools:layout="@layout/activity_mig_catalog" />
+    <activity
+        android:id="@+id/ARC_catalog"
+        android:name="com.example.fixit.ARC_catalog"
+        android:label="activity_arc_catalog"
+        tools:layout="@layout/activity_arc_catalog" />
+    <activity
+        android:id="@+id/TIG_catalog"
+        android:name="com.example.fixit.TIG_catalog"
+        android:label="activity_tig_catalog"
+        tools:layout="@layout/activity_tig_catalog" />
+</navigation>

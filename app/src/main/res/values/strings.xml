@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GROVERS Repair</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Главное меню</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="warning">Внимание все проверки элементов производятся при выключенном аппарате и отключеном от сети.
+        <br />
+    </string>
+
+    <string name="pfc_dont_work">
+        Если у вас не работает осцилятор то проверьте транзистор отмеченный на фото,
+        его маркировка должна быть 2n5551. Так же проверьте реле стоящее рядом.
+        Если после замены транзистора осцилятор все равно не работает то проблема в трансформаторе.
+        В данном случае обратитесь в нашим специалистам для отправки вам платы осцилятора.</string>
+    <string name="warning_check">Внимание все проверки элементов производятся при выключенном аппарате и отключеном от сети. \n Замеры напряжений производятся на включенном аппарате.</string>
+    <string name="migser">MIG серия</string>
+    <string name="tigser">TIG серия</string>
+    <string name="cutser">CUT серия</string>
+    <string name="mmaser">MMA серия</string>
+    <string name="download">Скачать схемы и инструкции</string>
+</resources>

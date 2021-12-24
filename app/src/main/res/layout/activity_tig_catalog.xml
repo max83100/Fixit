@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tig_cat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TIG_catalog">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/etig180_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="ENERGY TIG 180"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/etig180"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/etig180hf" />
+
+            <TextView
+                android:id="@+id/etig200_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:gravity="center_horizontal"
+                android:text="ENERGY TIG 200"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/etig_200"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/etig200" />
+
+            <TextView
+                android:id="@+id/tig200dc_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text=" TIG 200 DC PULSE"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/tig_200dc"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/tig200dcpuls" />
+
+            <TextView
+                android:id="@+id/wsme200_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="WSME 200"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/wsme_200"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/wsme200" />
+
+            <TextView
+                android:id="@+id/wsme200w_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="WSME 200W"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/wsme_200w"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/wsme200w" />
+
+            <TextView
+                android:id="@+id/wsme200e_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="WSME 200E"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/wsme_200e"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/wsme200e" />
+
+            <TextView
+                android:id="@+id/wsme200p_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="WSME 200P"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/wsme_200p"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/wsme200p" />
+
+
+            <TextView
+                android:id="@+id/wsme315wc_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="WSME 315WC "
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/wsme_315wc"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/wsme315wc" />
+
+            <TextView
+                android:id="@+id/wsme315w_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="WSME 315W"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/wsme_315w"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/wsme315w" />
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

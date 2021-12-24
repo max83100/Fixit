@@ -1,0 +1,35 @@
+package com.example.fixit.mig;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.view.View;
+
+import com.example.fixit.R;
+
+public class MIG200C extends AppCompatActivity implements View.OnClickListener {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_mig200_c);
+    }
+    public void onClick(View v) {
+        switch (v.getId()) {
+
+            case(R.id.linkmig200c):
+                Uri address = Uri.parse("https://drive.google.com/file/d/1c5HNq3xreAFAqAV5FnZIEpjsbheMPLy6/view?usp=sharing");
+                Intent openlink = new Intent(Intent.ACTION_VIEW, address);
+                startActivity(openlink);
+                break;
+            case(R.id.webmig200c):
+                Uri webmig = Uri.parse(
+                        "https://grovers.ru/catalog/MIG-MAG-svarka/poluavtomat-grovers-mig-200-c/");
+                Intent webmig200 = new Intent(Intent.ACTION_VIEW, webmig);
+                startActivity(webmig200);
+                break;
+        }
+    }
+}

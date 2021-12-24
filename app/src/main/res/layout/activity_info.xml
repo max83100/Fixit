@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menu_java.Info">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Приложение сделано для сервисных центров и для тех людей кто дружит с паяльником и знает как правильно читать схемы.
+В данном приложении приложены схемы которые помогут вам осуществить ремонт вашего аппарата.
+Если у вас возникли какие либо сложности то вы можете связаться с нами или ближайшим сервисным
+центром в вашем регионе.\nПриложение будет со временем обновляться, типичные неисправности и пути их
+решения так же будут добавляться. Если у вас есть предложения или замечания по работе приложения
+просьба написать нам на почту(можно нажать на кнопку с письмом в главном меню).\n
+\n\n
+Если у вас возникли проблемы с отображением текста. в ночном режиме то переключитесь в системных настройках на светлый режим."
+        android:textColor="#0E0E0E"
+        android:textSize="16sp" />
+</LinearLayout>

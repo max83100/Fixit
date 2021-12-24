@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MIG_catalog">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mig160_200_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text=" ENERGY MIG  160 - 200"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/emig160_200"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/emig160_200" />
+
+
+            <TextView
+                android:id="@+id/mig200_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="MIG 200"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/mig_200"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/mig_200_" />
+
+            <TextView
+                android:id="@+id/multimig200pfc_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="MULTIMIG 200 PFC DUAL PULSE"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/multimig_200pfc"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/multimig200" />
+
+            <TextView
+                android:id="@+id/mig220c_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="MIG 220C AC/DC"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/mig_220c"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/mig220c" />
+
+            <TextView
+                android:id="@+id/mig200p_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="MIG 200P"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/mig_200p"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/mig200p" />
+
+            <TextView
+                android:id="@+id/mig200c_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text=" MIG 200C "
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/mig_200c"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/mig200c" />
+
+            <TextView
+                android:id="@+id/mig250_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="MIG 250 - 315"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/mig_250"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/mig250" />
+
+            <TextView
+                android:id="@+id/mig315_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="MIG 315T"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/mig_3154R"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/mig315_4r" />
+
+            <TextView
+                android:id="@+id/mig295_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="MIG 295-395"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/mig_295"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/mig_295" />
+
+            <TextView
+                android:id="@+id/mig350_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="MIG 350 - 500"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/mig_350_500"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/mig350" />
+
+            <TextView
+                android:id="@+id/mig500w_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="MIG 500W"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/mig500w"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/mig500w" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

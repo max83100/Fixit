@@ -1,0 +1,2570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menu_java.Service_locate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contacts_info2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:text="Информация о месторасположении наших авторизированных сервисов"
+            android:textColor="#101010"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/almetyevsk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Республика Татарстан"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/almetyevsk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «Альфа-Сервис»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/almetyevsk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Альметьевск, ул. Шевченко, д. 2А, офис 2/1"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/almetyevsk_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="+7 917234 4 888"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/nizhnekamsk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «Мастер»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/nizhnekamsk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г.Нижнекамск , пр-кт Химиков 53-1 помещение 4"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/nizhnekamsk_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="+7 987-260-23-81"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/almetyevsk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7917 87 333 77"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kazan_web2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ИП Карпов П.Н. "
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kazan_map2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text='г. Казань, ул. Техническая, 10Б(остановка з-д "Искож")'
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kazan_number3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="+7 (965) 583-70-86"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/archangel_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Архангельская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/archangel_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ЗАО “Север-Союз”"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/archangel_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Архангельск, Кузнечихинский промузел 4-й проезд, дом 7 строение 2"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/archangel_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="+7 (8182) 29-77-38"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/archangel_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (8182) 29-77-39"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/astrahan_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Астраханская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/astrahan_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text='СЦ "Техник"'
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/astrahan_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г.Астрахань ул.3-я Зелегинская 56а/5"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/astrahan_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="+7 (8512) 450063"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/astrahan_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (8512) 450066"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/altay_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Алтайский край"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/altay_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «ТПК «Сварочный центр»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/altay_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Алтайский край, г. Барнаул, Пр-кт Строителей, 117"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/altay_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="8 (493) 257-48-08"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/altay_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8-913-250-11-23"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/altay_web2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «ТПК «Сварочный центр»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/altay_map3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Алтайский край, г. Бийск,Ул. Иртышская, д. 32"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/altay_number5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="8 (3852) 539-503"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/belgorod_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Белгородская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/belgorod_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «Артисан»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/belgorod_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Белгород, ул. Корочанская 132А, оф.23."
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/belgorod_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="+7 (4722) 56-95-77"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/belgorod_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text=":+7 (4722) 56-95-73"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/bryansk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Брянская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bryansk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Свармастер"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/bryansk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Брянск, ул. Литейная, д. 2А"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/bryansk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (4832) 77-2000"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vladivostok_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Приморский край"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/vladivostok_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «Эдельвейс»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vladivostok_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Владивосток, ул. Снеговая 18А"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vladivostok_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (4722) 56-95-73"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vladimir_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Владимирская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/vladimir_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Магазин Мастер сварщик - Сервисный Центр"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vladimir_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Владимир, ул. Гастелло, д. 4,"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vladimir_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (910) 098-13-45"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/volgograd_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Волгоградская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/volgograd_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Спецсервис Пром"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/volgograd_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Волгоград, ул. Бахтурова, 10 Б"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/volgograd_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(8442) 49 89 90"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/voronezh_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Воронежская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/voronezh_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Мастер сварщик"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/voronezh_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Воронеж, ул. 25 января, 72"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/voronezh_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8(473)229-40-99"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dzerzhinsk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Нижегородская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/dzerzhinsk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Компания Сервис ТехАс"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dzerzhinsk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Дзержинск, проспект Свердлова 77Б (павильон)"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dzerzhinsk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (920)049-43-28"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/nizhniy_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Техносварка"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/nizhniy_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Нижний Новгород, ул. Республиканская, д.24"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/nizhniy_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (831) 2-808-333"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ekaterinburg_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Свердловская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ekaterinburg_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Инверт-Сервис"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ekaterinburg_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Екатеринбург, пер. Выездной д. 3г"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ekaterinburg_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8-950-631-78-34"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ivanovo_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Ивановская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ivanovo_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО СЦ Реаниматор"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ivanovo_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Ивановская обл., г. Иваново, ул. Ермака, дом 10."
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ivanovo_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8-950-631-78-34"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/izhevsk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Удмуртия"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/izhevsk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО Раден"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/izhevsk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г.Ижевск, ул.Маяковского, д.17, помещение 15"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/izhevsk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8(3412)655-295"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/irkutsk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Иркутская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/irkutsk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО Торговый дом «Сварочная техника»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/irkutsk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text=" г. Иркутск, ул. Трактовая, 22/3"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/irkutsk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (3952) 55-00-52"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kaliningrad_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Калининградская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/kaliningrad_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО Аброзив Эксперт"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kaliningrad_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Калининград, ул. Дзержинского, 136"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kaliningrad_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8 (4012) 50-85-11"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kaluga_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Калужская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/kaluga_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Свармастер"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kaluga_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Калуга, ул. Московская, 54"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kaluga_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(915) 537 72 21"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kirov_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Кировская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/kirov_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «Сварочное оборудование»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kirov_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text=" г. Киров, ул. Производственная, д.29, помещение 3"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kirov_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(8332) 714-555"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kolomna_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Московская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/kolomna_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ИП Гудков И.А."
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kolomna_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text=" г. Коломна, Озерское шоссе, СНТ №3 Коломзавода , дом 206"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kolomna_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (916) 580-45-80"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/kursk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «АЙКЬЮ ТУЛ»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kursk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Курск, ул. 3-я Песковская, 12, стр. В, оф. 4"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/kursk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (4712) 777-203"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/moscow_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Сварби"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/moscow_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Москва, 1-й Дорожный пр-д, д. 6, стр. 6"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/moscow_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(495) 77-55-830"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/krasnodar_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Краснодарский край"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/krasnodar_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Компания Велдинг Сервис"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/krasnodar_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Краснодар, ул. Ростовское шоссе, д. 14 к. 2"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/krasnodar_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (918) 2678717"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/krasnodar2_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Компания Ремо Сервис"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/krasnodar2_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Краснодар ул. 3-я Целиноградская 2"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/krasnodar2_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(918) 1989858"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/krasnoyarsk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Красноярский край"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/krasnoyarsk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «Торговый Дом КОНТИНЕНТ»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/krasnoyarsk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Красноярск ул. Чернышевского д. 79"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/krasnoyarsk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(391) 214-68-39"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/krasnoyarsk2_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Сервис IWS24"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/krasnoyarsk2_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Красноярск, ул. Академика Павлова, дом 46, цокольный этаж"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/krasnoyarsk2_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(391) 228-74-67"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/yakutiya_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text=" 	Республика Саха (Якутия)"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/yakutiya_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «Восток»»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/yakutiya_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Нерюнгри, пр-кт Дружбы Народов, д. 3, кв. 16"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/yakutiya_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(924) 161-66-39"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/novokuznetzk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Кемеровская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/novokuznetzk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО Свартех-Сервис"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/novokuznetzk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Новокузнецк, ул. Ленина, 121"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/novokuznetzk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (3843) 75-62-99"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/novosibirsk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Новосибирская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/novosibirsk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Компания «ТОРУС»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/novosibirsk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Новосибирск, ул. Пристанский пер., д. 5г"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/novosibirsk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(924) 161-66-39"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/novosibirsk2_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО РА Капелла"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/novosibirsk2_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Новосибирск, Ул. Петухова, д.69к10"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/novosibirsk2_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8 (383) 258-37-11"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/omsk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Омская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/omsk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «АРМИГ»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/omsk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text=" Омск, улица 10 лет октября, дом 182, офис 202"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/omsk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8 (3812) 788056"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/orenburg_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Оренбургская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/orenburg_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «Урал-Резерв»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/orenburg_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Оренбург, ул. Беляевская, 50 А"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/orenburg_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8(3532)505-670"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/penza_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Пензенская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/penza_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «Велдинтэкс»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/penza_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text=" г. Пенза, ул. Куйбышева, дом 23, литер А"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/penza_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8-800-550-36-03"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/perm_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Пермский край"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/perm_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «АСОИК»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/perm_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Пермь, ул. 1-я Бахаревская, д. 58"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/perm_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (342) 294-44-36"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/petrozavodsk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Республика Карелия"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/petrozavodsk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="СВАРКОМ"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/petrozavodsk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Петрозаводск, ул. Новосулажгорская 25"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/petrozavodsk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8 (911) 400-46-11"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rostov_na_dony_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Ростовская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rostov_na_dony_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Технополис"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rostov_na_dony_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Ростов-на-Дону, пр-кт 40-летия Победы, д. 75"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rostov_na_dony_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (863) 279-69-59"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ryazan_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Рязанская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ryazan_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «СварКомплектСервис»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ryazan_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г.Рязань, ул.Лермонтова, д.8 к.1, оф.14 (здание «РЯЗАНЬАГРОХИМ») "
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ryazan_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(910)502-21-21"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/peterburg_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Санкт-Петербург"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/peterburg_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Deria"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/peterburg_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Санкт-Петербург, ул. Трефолева, д. 42, офис 104"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/peterburg_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8 800 775-09-69"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/peterburg2_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ИП Никольский К.В."
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/peterburg2_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Санкт-Петербург, ул. Уральская д.13АС (Заезд через арку в доме № 17)"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/peterburg2_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (921) 449 84 29"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/peterburg3_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО «НПО Пульсар»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/peterburg3_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Санкт-Петербург, ул. Вавиловых д.13, к. 1"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/peterburg3_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (812) 900-38-91"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/saratov_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Саратовская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/saratov_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Сварка-Сервис"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/saratov_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Саратов, ул. Большая Горная, дом 324"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/saratov_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (8452) 46-01-04"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/simferopol_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Республика Крым"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/simferopol_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ИП Чмыхов М.Н."
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/simferopol_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Симферополь, пер. Элеваторный, 6-А"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/simferopol_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (3652) 53-41-55"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/stavropol_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Ставропольский край"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/stavropol_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ИП Хомутов В.И."
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/stavropol_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г .Ставрополь ул. Перспективная 26а"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/stavropol_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8 (962) 442-40-19"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tula_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Тульская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tula_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ЗАО «Сварка-Центр»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tula_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Тула, пр-т. Ленина, дом 102, корпус 4"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tula_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="8(4872)35-45-87"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ulyanovsk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Ульяновская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ulyanovsk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО Октябрь"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ulyanovsk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г.Ульяновск, ул.Октябрьская, д.22, стр.17"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ulyanovsk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (8422) 73-64-08"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ufa_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Республика Башкортостан"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ufa_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО Октябрь"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ufa_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Уфа, ул. Лесотехникума, 92 корпус 3"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ufa_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(347) 295-99-28"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cheboksari_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Чувашская Республика"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/cheboksari_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО Региональный Центр Сварки"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cheboksari_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text=" г. Чебоксары, Складской проезд, д. 6, Склад 19/1"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cheboksari_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(8352) 40-59-59"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/chelyabinsk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Челябинская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/chelyabinsk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО УМТС Сплав"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/chelyabinsk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="г. Челябинск, ул. Цинковая 2 «А»"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/chelyabinsk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7(351)790-21-14"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/uzhno_sakhalinsk_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Сахалинская область"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/uzhno_sakhalinsk_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="ООО Центр Сварочных Материалов"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/uzhno_sakhalinsk_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:text="Южно-Сахалинск, пр. Мира 5, оф.27 (Восточная металлобаза)."
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/uzhno_sakhalinsk_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="20dp"
+            android:text="+7 (4242) 46-38-20"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

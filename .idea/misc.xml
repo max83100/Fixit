@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/drawable/button_shape.xml" value="0.17962962962962964" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc400.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc_catalog.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_contacts.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut100_s.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut120.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut40.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut40_com.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut45_p.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut60.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_energy_arc160.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_energy_arc220.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_energy_mig160200.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_energy_tig180.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_energy_tig200.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_feedback.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig200.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig200_c.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig200_p.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig220_c.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig250.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig295.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig3154_r.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig350.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig500_w.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig_catalog.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_multimig200_pfc.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_order_for_repair.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_service_locate.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_splash_screen.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_tig200_dc.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_tig_catalog.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_wsme200.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_wsme200_e.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_wsme200_p.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_wsme200_w.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_wsme315_w.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_wsme315_wc.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/fragment_first.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/fragment_second.xml" value="0.12777777777777777" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
