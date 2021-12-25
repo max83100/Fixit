@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FixIt">
         <activity
+            android:name=".menu_java.new_list_service.New_Services"
+            android:exported="false" />
+        <activity
+            android:name=".Bottom"
+            android:exported="false" />
+        <activity
             android:name=".mig.MIG200C"
             android:exported="false" />
         <activity
@@ -23,11 +29,11 @@
             android:exported="false"
             android:label="WSME 315WC" />
         <activity
-            android:name=".Feedback"
+            android:name=".menu_java.send_mail.Feedback"
             android:exported="false"
             android:label="Обратная связь" />
         <activity
-            android:name=".Order_for_repair"
+            android:name=".menu_java.Order_for_repair"
             android:exported="false"
             android:label="Заявка на ремонт" />
         <activity

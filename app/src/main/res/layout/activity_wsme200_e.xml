@@ -51,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/indexj" />
+                app:srcCompat="@drawable/pedal_connect" />
 
         </LinearLayout>
     </ScrollView>

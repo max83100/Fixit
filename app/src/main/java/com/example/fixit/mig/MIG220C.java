@@ -6,16 +6,67 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.example.fixit.R;
 
 public class MIG220C extends AppCompatActivity {
+    ImageView hf_dont_work;
+    ImageView motor_power_pcb;
+    ImageView motor_controlpcb;
+    ImageView pfc_error;
+    ImageView ac_dont_work;
+    ImageView pfc_error;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mig220_c);
+
+        hf_dont_work = findViewById(R.id.hf_dont_work);
+        motor_power_pcb = findViewById(R.id.motor_power_pcb);
+        String hf = "https://github.com/max83100/123/blob/main/MIG220C_hf%20dont%20work.jpg?raw=true";
+        Glide.with(this).load(hf)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(hf_dont_work);
+        motor_power_pcb = findViewById(R.id.motor_power_pcb);
+        String url = "https://github.com/max83100/123/blob/main/MIG220C_motor_dont%20work_power_pcb.jpg?raw=true";
+        Glide.with(this).load(url)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(motor_power_pcb);
+        motor_controlpcb = findViewById(R.id.motor_power_pcb);
+        String url2 = "https://github.com/max83100/123/blob/main/MIG220C_motor%20dont%20work.jpg?raw=true";
+        Glide.with(this).load(url2)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(motor_controlpcb);
+        pfc_error = findViewById(R.id.pfc_error);
+        String url3 = "https://github.com/max83100/123/blob/main/MIG220C_pfclocate.jpg?raw=true";
+        Glide.with(this).load(url3)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(pfc_error);
+        ac_dont_work = findViewById(R.id.ac_dont_work);
+        String url4 = "https://github.com/max83100/123/blob/main/MIG220C_aclocate.jpg?raw=true";
+        Glide.with(this).load(url4)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(ac_dont_work);
+        dc_dont_work = findViewById(R.id.dc_dont_work);
+        String url4 = "https://github.com/max83100/123/blob/main/MIG220C_aclocate.jpg?raw=true";
+        Glide.with(this).load(url4)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(ac_dont_work);
+
+
     }
+
+
+
     public void onClick(View v) {
         switch (v.getId()) {
 

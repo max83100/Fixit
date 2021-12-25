@@ -1,18 +1,16 @@
 package com.example.fixit;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 
 import com.example.fixit.menu_java.Contacts;
 import com.example.fixit.menu_java.Info;
+import com.example.fixit.menu_java.Order_for_repair;
 import com.example.fixit.menu_java.Service_locate;
-import com.google.android.material.snackbar.Snackbar;
+import com.example.fixit.menu_java.new_list_service.New_Services;
+import com.example.fixit.menu_java.send_mail.Feedback;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Environment;
-import android.view.View;
 
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.navigation.NavController;
@@ -24,7 +22,6 @@ import com.example.fixit.databinding.ActivityMainBinding;
 
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -70,11 +67,11 @@ Intent contacts = new Intent(getApplicationContext(), Contacts.class);
 startActivity(contacts);
             return true;
             case(R.id.info):
-                Intent info = new Intent(getApplicationContext(), Info.class);
+                Intent info = new Intent(getApplicationContext(), Bottom.class);
                 startActivity(info);
                 return true;
             case(R.id.service_locate):
-                Intent locate = new Intent(getApplicationContext(), Service_locate.class);
+                Intent locate = new Intent(getApplicationContext(), New_Services.class);
                 startActivity(locate);
                 return true;
             case(R.id.send_email):

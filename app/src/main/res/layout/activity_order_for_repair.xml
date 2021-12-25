@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Order_for_repair">
+    tools:context=".menu_java.Order_for_repair">
 
     <LinearLayout
         android:layout_width="match_parent"

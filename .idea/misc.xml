@@ -6,6 +6,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/drawable/button_shape.xml" value="0.17962962962962964" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc400.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc_catalog.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_bottom.xml" value="0.16" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_contacts.xml" value="0.17685185185185184" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut100_s.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut120.xml" value="0.19635416666666666" />
@@ -30,6 +31,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig500_w.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig_catalog.xml" value="0.17685185185185184" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_multimig200_pfc.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_new_services.xml" value="0.1388888888888889" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_order_for_repair.xml" value="0.2" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_service_locate.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_splash_screen.xml" value="0.12777777777777777" />
@@ -43,6 +45,9 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_wsme315_wc.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/fragment_first.xml" value="0.17685185185185184" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/fragment_second.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/service_list.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/menu/bottom.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/menu/example_menu.xml" value="0.10462962962962963" />
       </map>
     </option>
   </component>

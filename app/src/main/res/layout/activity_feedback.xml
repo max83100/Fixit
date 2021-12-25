@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
-    tools:context=".Feedback">
+    tools:context=".menu_java.send_mail.Feedback">
 
     <TextView
         android:id="@+id/textView5"

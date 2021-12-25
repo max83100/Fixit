@@ -8,17 +8,26 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.example.fixit.R;
 
 public class MIG200 extends AppCompatActivity implements View.OnClickListener {
-
+ImageView torch;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mig200);
+        torch = findViewById(R.id.torch_problem);
+        String hf = "https://github.com/max83100/123/blob/main/Mig200_torch_dont_work.jpg?raw=true";
+
+        Glide.with(this).load(hf)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(torch);
 
 
     }
