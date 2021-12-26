@@ -6,15 +6,24 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.example.fixit.R;
 
 public class MIG250 extends AppCompatActivity {
+    ImageView mig250_motor_image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mig250);
+        mig250_motor_image = findViewById(R.id.mig250_motor_image);
+        String url = "https://github.com/max83100/123/blob/main/Mig315_4R_motor_problem.jpg?raw=true";
+        Glide.with(this).load(url)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(mig250_motor_image);
     }
     public void onClick(View v) {
         switch (v.getId()) {

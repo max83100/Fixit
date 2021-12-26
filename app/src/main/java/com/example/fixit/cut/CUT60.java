@@ -6,15 +6,25 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.example.fixit.R;
 
 public class CUT60 extends AppCompatActivity {
+    ImageView cut60_arc_problem_image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cut60);
+
+        cut60_arc_problem_image = findViewById(R.id.cut60_arc_problem_image);
+        String url = "https://github.com/max83100/123/blob/main/cut60_problem_arc.jpg?raw=true";
+        Glide.with(this).load(url)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(cut60_arc_problem_image);
     }
     public void onClick(View v) {
         switch (v.getId()) {

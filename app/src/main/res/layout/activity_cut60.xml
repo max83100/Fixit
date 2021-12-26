@@ -43,6 +43,30 @@
                 android:onClick="onClick"
                 android:text="Обзор и характеристики" />
 
+            <TextView
+                android:id="@+id/cut60_arc_problem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Не разжигается дуга"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/cut60_arc_problem_image"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/hf_dont_work" />
+
+            <TextView
+                android:id="@+id/cut60_arc_problem_resolve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если при нажатии на кнопку у вас не разжигается дуга то замените микросхему обозначенную на фото
+на лицевой плате." />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

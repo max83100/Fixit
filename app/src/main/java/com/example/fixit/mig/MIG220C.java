@@ -17,7 +17,9 @@ public class MIG220C extends AppCompatActivity {
     ImageView motor_controlpcb;
     ImageView pfc_error;
     ImageView ac_dont_work;
-    ImageView pfc_error;
+    ImageView dc_dont_work;
+    ImageView ac_problem;
+    ImageView ac_problem2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +39,7 @@ public class MIG220C extends AppCompatActivity {
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(motor_power_pcb);
-        motor_controlpcb = findViewById(R.id.motor_power_pcb);
+        motor_controlpcb = findViewById(R.id.motor_controlpcb);
         String url2 = "https://github.com/max83100/123/blob/main/MIG220C_motor%20dont%20work.jpg?raw=true";
         Glide.with(this).load(url2)
                 .placeholder(R.drawable.ic_launcher_foreground)
@@ -56,11 +58,23 @@ public class MIG220C extends AppCompatActivity {
                 .error(R.drawable.ic_launcher_foreground)
                 .into(ac_dont_work);
         dc_dont_work = findViewById(R.id.dc_dont_work);
-        String url4 = "https://github.com/max83100/123/blob/main/MIG220C_aclocate.jpg?raw=true";
-        Glide.with(this).load(url4)
+        String url5 = "https://github.com/max83100/123/blob/main/MIG220C_aclocate.jpg?raw=true";
+        Glide.with(this).load(url5)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
-                .into(ac_dont_work);
+                .into(dc_dont_work);
+        ac_problem = findViewById(R.id.ac_problem);
+        String url6 = "https://github.com/max83100/123/blob/main/MIG220C_ac_problem.jpg?raw=true";
+        Glide.with(this).load(url6)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(ac_problem);
+        ac_problem2 = findViewById(R.id.ac_problem2);
+        String url7 = "https://github.com/max83100/123/blob/main/MIG220C_ac_problem2.jpg?raw=true";
+        Glide.with(this).load(url7)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(ac_problem2);
 
 
     }

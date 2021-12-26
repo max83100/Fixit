@@ -78,18 +78,18 @@
                 android:textColor="#050505"
                 android:textSize="24sp" />
 
-            <ImageView
-                android:id="@+id/motor_power_pcb"
-                android:layout_width="399dp"
-                android:layout_height="308dp"
-                android:layout_gravity="center"
-                app:srcCompat="@drawable/motor_dont_work_power_pcb" />
-
             <TextView
                 android:id="@+id/motor_solve"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Если у вас при замыкании контактов на евроразъёме срабатывает клапан но мотор не работает то замените микросхемы обозначенные на фото." />
+
+            <ImageView
+                android:id="@+id/motor_power_pcb"
+                android:layout_width="match_parent"
+                android:layout_height="308dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/motor_dont_work_power_pcb" />
 
             <ImageView
                 android:id="@+id/motor_controlpcb"
@@ -147,6 +147,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Проверьте транзисторы отмечающие за режим АС. Так же проверьте сигналы на шим контроллерах находящихся в нижней части платы " />
+
+            <TextView
+                android:id="@+id/ac_resolve2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Так же если у вас не работает режим АС то проверьте
+подключен ли контакт от выходных диодных модулей к силовой плате. Место контактов отмечено на фото." />
+
+            <ImageView
+                android:id="@+id/ac_problem"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginBottom="15dp"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/ac_problem2"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
 
             <TextView
                 android:id="@+id/dc_description"

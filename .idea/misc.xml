@@ -6,7 +6,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/drawable/button_shape.xml" value="0.17962962962962964" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc400.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc_catalog.xml" value="0.14444444444444443" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_bottom.xml" value="0.16" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_bottom.xml" value="0.22" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_contacts.xml" value="0.17685185185185184" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut100_s.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut120.xml" value="0.19635416666666666" />
@@ -43,6 +43,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_wsme200_w.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_wsme315_w.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_wsme315_wc.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/content_main.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/fragment_first.xml" value="0.17685185185185184" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/fragment_second.xml" value="0.12777777777777777" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/service_list.xml" value="0.1388888888888889" />

@@ -23,13 +23,13 @@ public class Bottom extends AppCompatActivity {
                     @Override
                     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                         switch (item.getItemId()) {
-                            case R.id.action_favorites:
+                            case R.id.charts:
                                 Toast.makeText(getApplicationContext(), "1", Toast.LENGTH_SHORT).show();
                                 break;
-                            case R.id.action_schedules:
+                            case R.id.parts:
                                 Toast.makeText(getApplicationContext(), "2", Toast.LENGTH_SHORT).show();
                                 break;
-                            case R.id.action_music:
+                            case R.id.other:
                                 Toast.makeText(getApplicationContext(), "3", Toast.LENGTH_SHORT).show();
                                 break;
                         }

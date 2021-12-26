@@ -45,6 +45,38 @@
                 android:onClick="onClick"
                 android:text="Обзор и характеристики" />
 
+            <TextView
+                android:id="@+id/wsme_315wc_arc_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Ошибка при старте сварки"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/wsme_315wc_arc_error_image2"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                app:srcCompat="@drawable/hf_dont_work" />
+
+            <ImageView
+                android:id="@+id/wsme_315wc_arc_error_image"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/hf_dont_work" />
+
+            <TextView
+                android:id="@+id/wsme_315wc_arc_error_resolve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если при нажатии на кнопку на холостую у вас сразу появляется ошибка то вам нужно заменить
+резисторы R11, R27  на 10Kом; R19 R35 изменить на 2Kом" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

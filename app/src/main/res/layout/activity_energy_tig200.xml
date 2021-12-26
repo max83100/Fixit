@@ -42,6 +42,28 @@
                 android:background="@drawable/button_shape"
                 android:onClick="onClick"
                 android:text="Обзор и характеристики" />
+
+            <TextView
+                android:id="@+id/tig200_ac_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Не работает режим АС"
+                android:textColor="#050505"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/tig200_ac_image"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/aclocate" />
+
+            <TextView
+                android:id="@+id/tig200_ac_resolve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если у вас не работает режим АС то проверьте транзистор отмеченный на фото " />
         </LinearLayout>
     </ScrollView>
 

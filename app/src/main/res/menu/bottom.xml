@@ -2,21 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_favorites"
+        android:id="@+id/charts"
         android:enabled="true"
         android:icon="@drawable/bar"
-        android:title="favorites"
+        android:title="Схемы"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/action_schedules"
+        android:id="@+id/parts"
         android:enabled="true"
         android:icon="@drawable/bar"
-        android:title="schedules"
+        android:title="ЗИП"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/action_music"
+        android:id="@+id/other"
         android:enabled="true"
         android:icon="@drawable/bar"
-        android:title="music"
+        android:title="Разное"
         app:showAsAction="ifRoom" />
 </menu>
