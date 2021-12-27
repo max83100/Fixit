@@ -50,7 +50,7 @@
                 android:id="@+id/torch_problem"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                app:srcCompat="@drawable/torch_dont_work" />
+                app:srcCompat="@drawable/ic_launcher_foreground" />
 
             <TextView
                 android:id="@+id/torch_solve"

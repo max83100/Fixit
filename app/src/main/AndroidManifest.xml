@@ -12,10 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FixIt">
         <activity
+            android:name=".menu_java.Other"
+            android:exported="false" />
+        <activity
+            android:name=".menu_java.Spare_parts"
+            android:exported="false" />
+        <activity
             android:name=".menu_java.new_list_service.New_Services"
             android:exported="false" />
         <activity
-            android:name=".Bottom"
+            android:name=".menu_java.Bottom"
             android:exported="false" />
         <activity
             android:name=".mig.MIG200C"

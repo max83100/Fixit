@@ -60,7 +60,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="283dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/hf_dont_work" />
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                tools:ignore="VectorDrawableCompat" />
 
             <TextView
                 android:id="@+id/hf_resolve"
@@ -89,14 +90,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="308dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/motor_dont_work_power_pcb" />
+                app:srcCompat="@drawable/ic_launcher_foreground" />
 
             <ImageView
                 android:id="@+id/motor_controlpcb"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/motor_dont_work" />
+                app:srcCompat="@drawable/ic_launcher_foreground" />
 
             <TextView
                 android:id="@+id/motor_solve2"
@@ -118,7 +119,7 @@
                 android:id="@+id/pfc_error"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                app:srcCompat="@drawable/pfclocate" />
+                app:srcCompat="@drawable/ic_launcher_foreground" />
 
             <TextView
                 android:id="@+id/pfc_resolve"
@@ -140,7 +141,7 @@
                 android:id="@+id/ac_dont_work"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
-                app:srcCompat="@drawable/aclocate" />
+                app:srcCompat="@drawable/ic_launcher_foreground" />
 
             <TextView
                 android:id="@+id/ac_resolve"
@@ -183,7 +184,7 @@
                 android:id="@+id/dc_dont_work"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
-                app:srcCompat="@drawable/dclocate" />
+                app:srcCompat="@drawable/ic_launcher_foreground" />
 
             <TextView
                 android:id="@+id/dc_resolve"

@@ -20,11 +20,9 @@ public class Splash_screen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
-        //anim = AnimationUtils.loadAnimation(this,R.anim.alfa);
         logo = (ImageView) findViewById(R.id.imageView2);
         text = (TextView) findViewById(R.id.textView) ;
         anim = (LottieAnimationView) findViewById(R.id.animationView) ;
-        //anim.animate().translationX(2000).setDuration(500).setStartDelay(0);
 
 
         Thread logoTimer = new Thread()

@@ -58,7 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="283dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/hf_dont_work" />
+                app:srcCompat="@drawable/ic_launcher_foreground" />
 
             <TextView
                 android:id="@+id/cut60_arc_problem_resolve"

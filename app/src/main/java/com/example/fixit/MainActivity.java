@@ -3,10 +3,9 @@ package com.example.fixit;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.fixit.menu_java.Bottom;
 import com.example.fixit.menu_java.Contacts;
-import com.example.fixit.menu_java.Info;
 import com.example.fixit.menu_java.Order_for_repair;
-import com.example.fixit.menu_java.Service_locate;
 import com.example.fixit.menu_java.new_list_service.New_Services;
 import com.example.fixit.menu_java.send_mail.Feedback;
 

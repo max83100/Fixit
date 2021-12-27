@@ -57,7 +57,7 @@
                 android:id="@+id/tig200_ac_image"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
-                app:srcCompat="@drawable/aclocate" />
+                app:srcCompat="@drawable/ic_launcher_foreground" />
 
             <TextView
                 android:id="@+id/tig200_ac_resolve"

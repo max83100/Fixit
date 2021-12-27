@@ -3,20 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/charts"
-        android:enabled="true"
-        android:icon="@drawable/bar"
+        android:icon="@drawable/chart"
         android:title="Схемы"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/parts"
-        android:enabled="true"
-        android:icon="@drawable/bar"
+        android:icon="@drawable/backpack"
         android:title="ЗИП"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/other"
-        android:enabled="true"
-        android:icon="@drawable/bar"
+        android:icon="@drawable/notes"
         android:title="Разное"
         app:showAsAction="ifRoom" />
 </menu>
