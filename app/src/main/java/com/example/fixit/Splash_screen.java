@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.example.fixit.menu_java.Bottom;
 
 public class Splash_screen extends AppCompatActivity {
     ImageView logo;
@@ -37,7 +38,7 @@ public class Splash_screen extends AppCompatActivity {
                         sleep(100);
                         logoTimer = logoTimer +100;
                     };
-                    startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                    startActivity(new Intent(getApplicationContext(), Bottom.class));
                 }
                 catch (InterruptedException e)
                 {

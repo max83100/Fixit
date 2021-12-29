@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:paddingBottom="20dp"
-                android:text=" Выберите одну из категорий"
+                android:text="Каталог схем и инструкций"
                 android:textColor="#020202"
                 android:textSize="24sp" />
 
@@ -42,11 +42,11 @@
                 android:textSize="34sp" />
 
             <ImageView
-                android:id="@+id/tig_catalog"
+                android:id="@+id/tig_image"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_weight="1"
-
+                android:onClick="onClick"
                 app:srcCompat="@drawable/wsme315wc" />
 
             <TextView
@@ -59,10 +59,11 @@
                 android:textSize="34sp" />
 
             <ImageView
-                android:id="@+id/cut_100_s"
+                android:id="@+id/cut_image"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_weight="1"
+                android:onClick="onClick"
                 app:srcCompat="@drawable/cut100s" />
 
             <TextView
@@ -75,11 +76,11 @@
                 android:textSize="34sp" />
 
             <ImageView
-                android:id="@+id/arc_catalog"
+                android:id="@+id/arc_image"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_weight="1"
-
+                android:onClick="onClick"
                 app:srcCompat="@drawable/energy_arc220" />
 
             <TextView
@@ -92,11 +93,11 @@
                 android:textSize="34sp" />
 
             <ImageView
-                android:id="@+id/mig_catalog"
+                android:id="@+id/mig_image"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_weight="1"
-
+                android:onClick="onClick"
                 app:srcCompat="@drawable/mig220c" />
         </LinearLayout>
     </ScrollView>

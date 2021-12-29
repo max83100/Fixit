@@ -9,8 +9,10 @@ import android.view.View;
 import com.example.fixit.arc.ARC400;
 import com.example.fixit.arc.ENERGY_ARC160;
 import com.example.fixit.arc.ENERGY_ARC220;
+import com.example.fixit.menu_java.Bottom;
 
 public class ARC_catalog extends AppCompatActivity implements View.OnClickListener{
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,17 +26,27 @@ public class ARC_catalog extends AppCompatActivity implements View.OnClickListen
 
 
             case R.id.arc_400:
-                Intent arc400 = new Intent(this, ARC400.class);
-                startActivity(arc400);
+                intent = new Intent(this, ARC400.class);
+                startActivity(intent);
+                finish();
+                overridePendingTransition(0,0);
                 break;
             case R.id.arc160:
-                Intent arc160 = new Intent(this,ENERGY_ARC160.class);
-                startActivity(arc160);
+                intent = new Intent(this,ENERGY_ARC160.class);
+                startActivity(intent);
+                finish();
+                overridePendingTransition(0,0);
                 break;
             case R.id.arc220:
-                Intent arc220 = new Intent(this, ENERGY_ARC220.class);
-                startActivity(arc220);
+                 intent = new Intent(this, ENERGY_ARC220.class);
+                startActivity(intent);
+                finish();
+                overridePendingTransition(0,0);
                 break;
         }
+    }
+    public void onBackPressed() {
+        intent = new Intent(getApplicationContext(), Bottom.class);
+        startActivity(intent);
     }
 }

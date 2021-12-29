@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FixIt">
         <activity
+            android:name=".parts.CUT_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.ARC_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.TIG_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.MIG_parts"
+            android:exported="false" />
+        <activity
             android:name=".menu_java.Other"
             android:exported="false" />
         <activity
