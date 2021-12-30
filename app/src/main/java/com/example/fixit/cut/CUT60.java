@@ -20,7 +20,7 @@ public class CUT60 extends AppCompatActivity {
         setContentView(R.layout.activity_cut60);
 
         cut60_arc_problem_image = findViewById(R.id.cut60_arc_problem_image);
-        String url = "https://github.com/max83100/123/blob/main/cut60_problem_arc.jpg?raw=true";
+        String url = "https://github.com/max83100/123/blob/main/problems/cut60_problem_arc.jpg?raw=true";
         Glide.with(this).load(url)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)

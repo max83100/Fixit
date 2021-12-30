@@ -22,7 +22,7 @@ ImageView torch;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mig200);
         torch = findViewById(R.id.torch_problem);
-        String hf = "https://github.com/max83100/123/blob/main/Mig200_torch_dont_work.jpg?raw=true";
+        String hf = "https://github.com/max83100/123/blob/main/problems/Mig200_torch_dont_work.jpg?raw=true";
 
         Glide.with(this).load(hf)
                 .placeholder(R.drawable.ic_launcher_foreground)

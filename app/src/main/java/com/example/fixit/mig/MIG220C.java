@@ -28,49 +28,49 @@ public class MIG220C extends AppCompatActivity {
 
         hf_dont_work = findViewById(R.id.hf_dont_work);
         motor_power_pcb = findViewById(R.id.motor_power_pcb);
-        String hf = "https://github.com/max83100/123/blob/main/MIG220C_hf%20dont%20work.jpg?raw=true";
+        String hf = "https://github.com/max83100/123/blob/main/problems/MIG220C_hf%20dont%20work.jpg?raw=true";
         Glide.with(this).load(hf)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(hf_dont_work);
         motor_power_pcb = findViewById(R.id.motor_power_pcb);
-        String url = "https://github.com/max83100/123/blob/main/MIG220C_motor_dont%20work_power_pcb.jpg?raw=true";
+        String url = "https://github.com/max83100/123/blob/main/problems/MIG220C_motor_dont%20work_power_pcb.jpg?raw=true";
         Glide.with(this).load(url)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(motor_power_pcb);
         motor_controlpcb = findViewById(R.id.motor_controlpcb);
-        String url2 = "https://github.com/max83100/123/blob/main/MIG220C_motor%20dont%20work.jpg?raw=true";
+        String url2 = "https://github.com/max83100/123/blob/main/problems/MIG220C_motor%20dont%20work.jpg?raw=true";
         Glide.with(this).load(url2)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(motor_controlpcb);
         pfc_error = findViewById(R.id.pfc_error);
-        String url3 = "https://github.com/max83100/123/blob/main/MIG220C_pfclocate.jpg?raw=true";
+        String url3 = "https://github.com/max83100/123/blob/main/problems/MIG220C_pfclocate.jpg?raw=true";
         Glide.with(this).load(url3)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(pfc_error);
         ac_dont_work = findViewById(R.id.ac_dont_work);
-        String url4 = "https://github.com/max83100/123/blob/main/MIG220C_aclocate.jpg?raw=true";
+        String url4 = "https://github.com/max83100/123/blob/main/problems/MIG220C_aclocate.jpg?raw=true";
         Glide.with(this).load(url4)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(ac_dont_work);
         dc_dont_work = findViewById(R.id.dc_dont_work);
-        String url5 = "https://github.com/max83100/123/blob/main/MIG220C_aclocate.jpg?raw=true";
+        String url5 = "https://github.com/max83100/123/blob/main/problems/MIG220C_aclocate.jpg?raw=true";
         Glide.with(this).load(url5)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(dc_dont_work);
         ac_problem = findViewById(R.id.ac_problem);
-        String url6 = "https://github.com/max83100/123/blob/main/MIG220C_ac_problem.jpg?raw=true";
+        String url6 = "https://github.com/max83100/123/blob/main/problems/MIG220C_ac_problem.jpg?raw=true";
         Glide.with(this).load(url6)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(ac_problem);
         ac_problem2 = findViewById(R.id.ac_problem2);
-        String url7 = "https://github.com/max83100/123/blob/main/MIG220C_ac_problem2.jpg?raw=true";
+        String url7 = "https://github.com/max83100/123/blob/main/problems/MIG220C_ac_problem2.jpg?raw=true";
         Glide.with(this).load(url7)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)

@@ -19,7 +19,7 @@ ImageView tig200_ac_image;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_energy_tig200);
         tig200_ac_image = findViewById(R.id.tig200_ac_image);
-        String url = "https://github.com/max83100/123/blob/main/Tig200_ac_problem.jpg?raw=true";
+        String url = "https://github.com/max83100/123/blob/main/problems/Tig200_ac_problem.jpg?raw=true";
         Glide.with(this).load(url)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)

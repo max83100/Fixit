@@ -21,14 +21,14 @@ public class WSME315WC extends AppCompatActivity implements View.OnClickListener
         setContentView(R.layout.activity_wsme315_wc);
 
         wsme_315wc_arc_error_image = findViewById(R.id.wsme_315wc_arc_error_image);
-        String url = "https://github.com/max83100/123/blob/main/Wsme315wc_error_problem.jpg?raw=true";
+        String url = "https://github.com/max83100/123/blob/main/problems/Wsme315wc_error_problem.jpg?raw=true";
         Glide.with(this).load(url)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(wsme_315wc_arc_error_image);
 
         wsme_315wc_arc_error_image2 = findViewById(R.id.wsme_315wc_arc_error_image2);
-        String url2 = "https://github.com/max83100/123/blob/main/Wsme315wc_error_problem2.jpg?raw=true";
+        String url2 = "https://github.com/max83100/123/blob/main/problems/Wsme315wc_error_problem2.jpg?raw=true";
         Glide.with(this).load(url2)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)

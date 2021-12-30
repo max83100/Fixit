@@ -19,7 +19,7 @@ public class MIG250 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mig250);
         mig250_motor_image = findViewById(R.id.mig250_motor_image);
-        String url = "https://github.com/max83100/123/blob/main/Mig315_4R_motor_problem.jpg?raw=true";
+        String url = "https://github.com/max83100/123/blob/main/problems/Mig315_4R_motor_problem.jpg?raw=true";
         Glide.with(this).load(url)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)

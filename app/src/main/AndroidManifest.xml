@@ -12,6 +12,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FixIt">
         <activity
+            android:name=".parts.mig_models.MIG_160Energy_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.cut_models.CUT_60_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.cut_models.CUT_40_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.cut_models.CUT_120_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.cut_models.CUT_100S_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.cut_models.CUT_100_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.arc_models.MMA_200G_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.arc_models.ARC_400_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.arc_models.ARC_315LT_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.arc_models.ARC_315_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.arc_models.ARC_250LT_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.arc_models.ARC_160_PFC_parts"
+            android:exported="false" />
+        <activity
             android:name=".parts.CUT_parts"
             android:exported="false" />
         <activity
