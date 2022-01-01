@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -14,6 +15,7 @@ import android.widget.SearchView;
 import android.widget.Toast;
 
 import com.example.fixit.R;
+import com.example.fixit.menu_java.Other;
 
 import java.util.ArrayList;
 
@@ -70,6 +72,10 @@ public class New_Services extends AppCompatActivity {
             }
         });
         return true;
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), Other.class);
+        startActivity(intent);
     }
 
 }

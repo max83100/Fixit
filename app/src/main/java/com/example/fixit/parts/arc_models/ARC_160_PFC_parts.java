@@ -2,14 +2,21 @@ package com.example.fixit.parts.arc_models;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.example.fixit.R;
+import com.example.fixit.parts.ARC_parts;
+import com.example.fixit.parts.CUT_parts;
 
-public class ARC_160_PFC_parts extends AppCompatActivity {
+public class ARC_160_PFC_parts extends AppCompatActivity implements View.OnClickListener {
     ImageView acr160_pfc_control_board_image;
+    Button inside;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,5 +29,22 @@ public class ARC_160_PFC_parts extends AppCompatActivity {
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(acr160_pfc_control_board_image);
+        inside = findViewById(R.id.arc_160_pfc_inside);
+        inside.setOnClickListener(this);
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), ARC_parts.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
+    }
+
+    @Override
+    public void onClick(View v) {
+        if(v.getId() == R.id.arc_160_pfc_inside){
+            Uri address = Uri.parse(
+                    "https://drive.google.com/drive/folders/1WKjrFgmKe_-OZiPIsZLVPGZgHCg_7KrR?usp=sharing");
+            Intent openlink = new Intent(Intent.ACTION_VIEW, address);
+            startActivity(openlink);
+        }
     }
 }

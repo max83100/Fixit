@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fixit">
+    package="com.example.fixit" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,7 +10,58 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/new_icon_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FixIt">
+        android:theme="@style/Theme.FixIt" >
+        <activity
+            android:name=".parts.tig_models.WSME_315WC_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.tig_models.WSME_315W_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.tig_models.WSME_200W_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.tig_models.WSME_200_P_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.tig_models.WSME_200E_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.tig_models.WSME_200_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.tig_models.TIG_400_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.tig_models.TIG_200_EN_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.tig_models.TIG_200_DC_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.mig_models.MULTIMIG_200_PFC_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.mig_models.MIG_295_395_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.mig_models.MIG350_500_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.mig_models.MIG_315T_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.mig_models.MIG_315_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.mig_models.MIG_220C_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.mig_models.MIG_200C_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.mig_models.MIG_200_parts"
+            android:exported="false" />
         <activity
             android:name=".parts.mig_models.MIG_160Energy_parts"
             android:exported="false" />
@@ -113,7 +164,7 @@
             android:label="Ручная дуговая сварка" />
         <activity
             android:name=".Splash_screen"
-            android:theme="@style/Theme.FixIt.NoActionBar">
+            android:theme="@style/Theme.FixIt.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

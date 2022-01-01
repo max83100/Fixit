@@ -2,11 +2,14 @@ package com.example.fixit.parts.cut_models;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.example.fixit.R;
+import com.example.fixit.parts.CUT_parts;
+import com.example.fixit.parts.MIG_parts;
 
 public class CUT_40_parts extends AppCompatActivity {
     ImageView cut40_drossel_board_image;
@@ -46,5 +49,10 @@ public class CUT_40_parts extends AppCompatActivity {
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(cut40_front_board_image);
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), CUT_parts.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

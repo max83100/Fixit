@@ -11,7 +11,11 @@ import android.widget.ListView;
 
 import com.example.fixit.R;
 import com.example.fixit.menu_java.Spare_parts;
+import com.example.fixit.parts.cut_models.CUT_100S_parts;
 import com.example.fixit.parts.cut_models.CUT_100_parts;
+import com.example.fixit.parts.cut_models.CUT_120_parts;
+import com.example.fixit.parts.cut_models.CUT_40_parts;
+import com.example.fixit.parts.cut_models.CUT_60_parts;
 
 public class CUT_parts extends AppCompatActivity {
     ListView listView;
@@ -40,41 +44,36 @@ public class CUT_parts extends AppCompatActivity {
                         overridePendingTransition(0, 0);
                         break;
                     case 1:
-                        intent = new Intent(getApplicationContext(), MIG_parts.class);
+                        intent = new Intent(getApplicationContext(), CUT_40_parts.class);
                         startActivity(intent);
                         finish();
                         overridePendingTransition(0, 0);
                         break;
                     case 2:
-                        intent = new Intent(getApplicationContext(), ARC_parts.class);
+                        intent = new Intent(getApplicationContext(), CUT_60_parts.class);
                         startActivity(intent);
                         finish();
                         overridePendingTransition(0, 0);
                         break;
                     case 3:
-                        intent = new Intent(getApplicationContext(), CUT_parts.class);
+                        intent = new Intent(getApplicationContext(), CUT_100S_parts.class);
                         startActivity(intent);
                         finish();
                         overridePendingTransition(0, 0);
                         break;
                     case 4:
-                        intent = new Intent(getApplicationContext(), CUT_parts.class);
+                        intent = new Intent(getApplicationContext(), CUT_100_parts.class);
                         startActivity(intent);
                         finish();
                         overridePendingTransition(0, 0);
                         break;
                     case 5:
-                        intent = new Intent(getApplicationContext(), CUT_100_parts.class);
+                        intent = new Intent(getApplicationContext(), CUT_120_parts.class);
                         startActivity(intent);
                         finish();
                         overridePendingTransition(0, 0);
                         break;
-                    case 6:
-                        intent = new Intent(getApplicationContext(), CUT_100_parts.class);
-                        startActivity(intent);
-                        finish();
-                        overridePendingTransition(0, 0);
-                        break;
+
                 }
             }
         });

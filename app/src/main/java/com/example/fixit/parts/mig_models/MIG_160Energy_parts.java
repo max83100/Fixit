@@ -2,20 +2,28 @@ package com.example.fixit.parts.mig_models;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.example.fixit.R;
+import com.example.fixit.parts.MIG_parts;
 
 public class MIG_160Energy_parts extends AppCompatActivity {
     ImageView mig160_europlug_image;
     ImageView mig160_polarity_pin_image;
+    Button inside;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mig160_energy_parts);
+        inside = findViewById(R.id.mig_160_inside);
+        inside.setOnClickListener(this::onClick);
 
         mig160_europlug_image = findViewById(R.id.mig160_europlug_image);
         String url = "https://github.com/max83100/123/blob/main/spare_parts/ENERGY%20MIG%20160/%D0%B5%D0%B2%D1%80%D0%BE%D1%80%D0%B0%D0%B7%D1%8A%D1%91%D0%BC.jpg?raw=true";
@@ -30,5 +38,19 @@ public class MIG_160Energy_parts extends AppCompatActivity {
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(mig160_polarity_pin_image);
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), MIG_parts.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
+    }
+
+    public void onClick(View v) {
+        if (v.getId() == R.id.mig_160_inside) {
+            Uri address = Uri.parse(
+                    "https://drive.google.com/drive/folders/1GQwkQwhTL0DCultY7IYLgkafPrT9cNI1?usp=sharing");
+            Intent openlink = new Intent(Intent.ACTION_VIEW, address);
+            startActivity(openlink);
+        }
     }
 }

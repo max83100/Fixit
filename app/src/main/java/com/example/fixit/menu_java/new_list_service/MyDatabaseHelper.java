@@ -1,24 +1,13 @@
 package com.example.fixit.menu_java.new_list_service;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
-import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteQueryBuilder;
-import android.util.Log;
 import android.widget.Toast;
-
-import androidx.annotation.Nullable;
 
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.util.ArrayList;
 
 public class MyDatabaseHelper extends SQLiteAssetHelper {
@@ -35,7 +24,7 @@ public class MyDatabaseHelper extends SQLiteAssetHelper {
     public ArrayList<DBData> getAllData(){
         try {
             ArrayList<DBData> list = new ArrayList<>();
-            SQLiteDatabase sqLiteDatabase = getReadableDatabase();
+            SQLiteDatabase sqLiteDatabase = getWritableDatabase();
             if(sqLiteDatabase != null){
                 Cursor cursor = sqLiteDatabase.rawQuery("select * from locate",null);
                 if(cursor.getCount() != 0){

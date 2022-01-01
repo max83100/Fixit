@@ -76,4 +76,8 @@ public class Contacts extends AppCompatActivity implements View.OnClickListener 
         }
         startActivity(intent);
     }
+    public void onBackPressed() {
+        intent = new Intent(getApplicationContext(), Other.class);
+        startActivity(intent);
+    }
 }

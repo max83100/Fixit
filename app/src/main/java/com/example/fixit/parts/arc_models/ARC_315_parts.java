@@ -2,11 +2,13 @@ package com.example.fixit.parts.arc_models;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.example.fixit.R;
+import com.example.fixit.parts.ARC_parts;
 
 public class ARC_315_parts extends AppCompatActivity {
     ImageView arc315_power_board_image;
@@ -49,5 +51,10 @@ public class ARC_315_parts extends AppCompatActivity {
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(arc315_invertor_board_image);
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), ARC_parts.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

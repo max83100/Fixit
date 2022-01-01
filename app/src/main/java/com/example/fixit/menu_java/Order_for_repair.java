@@ -2,6 +2,7 @@ package com.example.fixit.menu_java;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -79,5 +80,9 @@ Button send;
             Toast.makeText(this, "Нужно заполнить все поля", Toast.LENGTH_LONG).show();
         }
 
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), Other.class);
+        startActivity(intent);
     }
 }
