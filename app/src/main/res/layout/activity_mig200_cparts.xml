@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="Лицевая панель в сборе \n артикул 5.496.445-B "
+            android:text="MIG 200P \n Лицевая панель в сборе \n артикул 5.496.445-B "
             android:textColor="#151515"
             android:textSize="24sp" />
 
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="Плата индикации \n артикул 5.496.445-B-1 "
+            android:text="MIG 200P \n Плата индикации \n артикул 5.496.445-B-1 "
             android:textColor="#151515"
             android:textSize="24sp" />
 
@@ -123,6 +123,82 @@
 
         <ImageView
             android:id="@+id/mig200с_encoder_board_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig200с_plastic_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Задняя пластиковая панель \n артикул 8.068.925 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig200с_plastic_back_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig200с_plastic_front"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Передняя пластиковая панель \n артикул 8.069.92 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig200с_plastic_front_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig200с_invertor_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Плата инвертора \n артикул 8.066.249-B "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig200с_invertor_board_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig200с_front_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Плата индикации \n артикул 5.496.328 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig200с_front_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"

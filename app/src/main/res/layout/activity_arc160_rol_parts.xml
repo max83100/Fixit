@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".parts.mig_models.MIG_315_parts">
+    tools:context=".parts.arc_models.ARC_160_ROL_parts">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,24 +13,23 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/mig315_front_board"
+            android:id="@+id/arc160_invertor_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="Плата управления \n артикул Y13089027 "
+            android:text="Плата инвертора \n артикул DX10032 "
             android:textColor="#151515"
             android:textSize="24sp" />
 
         <ImageView
-            android:id="@+id/mig315_front_board_image"
+            android:id="@+id/arc160_invertor_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/ic_launcher_foreground" />
-
-
     </LinearLayout>
+
 </ScrollView>
