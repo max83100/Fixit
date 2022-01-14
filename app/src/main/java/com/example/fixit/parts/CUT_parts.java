@@ -15,6 +15,7 @@ import com.example.fixit.parts.cut_models.CUT_100S_parts;
 import com.example.fixit.parts.cut_models.CUT_100_parts;
 import com.example.fixit.parts.cut_models.CUT_120_parts;
 import com.example.fixit.parts.cut_models.CUT_40_parts;
+import com.example.fixit.parts.cut_models.CUT_45P_parts;
 import com.example.fixit.parts.cut_models.CUT_60_parts;
 
 public class CUT_parts extends AppCompatActivity {
@@ -38,7 +39,7 @@ public class CUT_parts extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position){
                     case 0:
-                        intent = new Intent(getApplicationContext(), CUT_100_parts.class);
+                        intent = new Intent(getApplicationContext(), CUT_45P_parts.class);
                         startActivity(intent);
                         finish();
                         overridePendingTransition(0, 0);

@@ -13,6 +13,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc165_mini_parts.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc200_parts.xml" value="0.17395833333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc250_lt.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc250_lt_parts.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc315.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc315_lt.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_arc315_lt_parts.xml" value="0.18802083333333333" />
@@ -48,6 +49,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig200.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig200_c.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig200_cparts.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig200_energy_parts.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig200_p.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig200_parts.xml" value="0.17395833333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mig220_c.xml" value="0.19635416666666666" />
@@ -72,6 +74,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_service_locate.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_spare_parts.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_splash_screen.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_tig180hf_parts.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_tig200_dc.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_tig200_dc_parts.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_tig200_en_parts.xml" value="0.17395833333333333" />

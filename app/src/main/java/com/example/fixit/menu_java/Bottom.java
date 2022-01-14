@@ -7,6 +7,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MenuItem;
@@ -18,7 +19,7 @@ import com.example.fixit.CUT_catalog;
 import com.example.fixit.MIG_catalog;
 import com.example.fixit.R;
 import com.example.fixit.TIG_catalog;
-import com.example.fixit.databinding.ActivityMainBinding;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Bottom extends AppCompatActivity implements View.OnClickListener {
@@ -29,6 +30,7 @@ public class Bottom extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bottom);
         bottomNavigationView = (BottomNavigationView)

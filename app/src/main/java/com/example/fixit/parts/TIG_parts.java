@@ -12,6 +12,7 @@ import android.widget.ListView;
 import com.example.fixit.R;
 import com.example.fixit.menu_java.Spare_parts;
 import com.example.fixit.parts.cut_models.CUT_100_parts;
+import com.example.fixit.parts.tig_models.TIG_180hf_parts;
 import com.example.fixit.parts.tig_models.TIG_200_DC_parts;
 import com.example.fixit.parts.tig_models.TIG_200_EN_parts;
 import com.example.fixit.parts.tig_models.TIG_400_parts;
@@ -44,7 +45,7 @@ public class TIG_parts extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position){
                     case 0:
-                        intent = new Intent(getApplicationContext(), CUT_100_parts.class);
+                        intent = new Intent(getApplicationContext(), TIG_180hf_parts.class);
                         startActivity(intent);
                         finish();
                         overridePendingTransition(0, 0);

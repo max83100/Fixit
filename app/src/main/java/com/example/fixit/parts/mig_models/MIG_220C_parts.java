@@ -3,7 +3,10 @@ package com.example.fixit.parts.mig_models;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -22,6 +25,7 @@ public class MIG_220C_parts extends AppCompatActivity {
     ImageView mig220c_plastic_front_image;
     ImageView mig220c_plastic_back_image;
     ImageView mig220c_mech_image;
+    Button inside;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +41,8 @@ public class MIG_220C_parts extends AppCompatActivity {
         mig220c_plastic_front_image = findViewById(R.id.mig220c_plastic_front_image);
         mig220c_plastic_back_image = findViewById(R.id.mig220c_plastic_back_image);
         mig220c_mech_image = findViewById(R.id.mig220c_mech_image);
+        inside = findViewById(R.id.mig220c_inside);
+        inside.setOnClickListener(this::onClick);
         downloadImage();
     }
 
@@ -109,5 +115,13 @@ public class MIG_220C_parts extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), MIG_parts.class);
         startActivity(intent);
         overridePendingTransition(0,0);
+    }
+    public void onClick(View v) {
+        if (v.getId() == R.id.mig220c_inside) {
+            Uri address = Uri.parse(
+                    "https://drive.google.com/drive/folders/1tddcRSyomK8KGpvzG0pof8mvZsF5JTmS?usp=sharing");
+            Intent openlink = new Intent(Intent.ACTION_VIEW, address);
+            startActivity(openlink);
+        }
     }
 }

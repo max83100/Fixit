@@ -87,5 +87,22 @@
             android:layout_marginBottom="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/ic_launcher_foreground" />
+        <TextView
+            android:id="@+id/arc315lt_transform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Трансформатор \n артикул YFYP-A1610 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/arc315lt_transform_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
     </LinearLayout>
 </ScrollView>

@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.fixit.MainActivity;
+
 import com.example.fixit.R;
 
 public class Contacts extends AppCompatActivity implements View.OnClickListener {

@@ -4,7 +4,10 @@ package com.example.fixit.parts.cut_models;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -14,6 +17,7 @@ import com.example.fixit.parts.CUT_parts;
 public class CUT_45P_parts extends AppCompatActivity {
     ImageView cut45_invertor_board_image;
     ImageView cut45_plastic_image;
+    Button inside;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +25,8 @@ public class CUT_45P_parts extends AppCompatActivity {
         setContentView(R.layout.activity_cut45_pparts);
         cut45_invertor_board_image = findViewById(R.id.cut45_invertor_board_image);
         cut45_plastic_image = findViewById(R.id.cut45_plastic_image);
+        inside = findViewById(R.id.cut45_inside);
+        inside.setOnClickListener(this::onClick);
         downloadImage();
     }
     public void onBackPressed() {
@@ -42,5 +48,14 @@ public class CUT_45P_parts extends AppCompatActivity {
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(cut45_plastic_image);
+    }
+
+    private void onClick(View v) {
+        if (v.getId() == R.id.cut45_inside) {
+            Uri address = Uri.parse(
+                    "https://drive.google.com/drive/folders/1RCHgXvhEyiNTig5tIENM0GzJ5eV0OREY?usp=sharing");
+            Intent openlink = new Intent(Intent.ACTION_VIEW, address);
+            startActivity(openlink);
+        }
     }
 }

@@ -25,7 +25,14 @@ public class MIG350_500_parts extends AppCompatActivity {
     ImageView mig350_500_roll_front_image;
     ImageView mig350_500_cond_image;
     ImageView mig350_500_driver_board_image;
-    ImageView mig350_500_plastic_image;
+    ImageView mig350_500_mech_board_image;
+    ImageView mig350_500_control_board_image;
+    ImageView mig350_500_filter_board_image;
+    ImageView mig350_500_radiator_image;
+    ImageView mig350_500_plastic_stand_image;
+    ImageView mig350_500_shunt_image;
+    ImageView mig350_500_fan_image;
+    ImageView mig350_500_transform_image;
     Button inside;
 
     @Override
@@ -43,9 +50,17 @@ public class MIG350_500_parts extends AppCompatActivity {
         mig350_500_roll_front_image = findViewById(R.id.mig350_500_roll_front_image);
         mig350_500_cond_image = findViewById(R.id.mig350_500_cond_image);
         mig350_500_driver_board_image = findViewById(R.id.mig350_500_driver_board_image);
-        mig350_500_plastic_image = findViewById(R.id.mig350_500_plastic_image);
+        mig350_500_mech_board_image = findViewById(R.id.mig350_500_mech_board_image);
+        mig350_500_control_board_image = findViewById(R.id.mig350_500_control_board_image);
+        mig350_500_filter_board_image = findViewById(R.id.mig350_500_filter_board_image);
+        mig350_500_radiator_image = findViewById(R.id.mig350_500_radiator_image);
+        mig350_500_plastic_stand_image = findViewById(R.id.mig350_500_plastic_stand_image);
+        mig350_500_shunt_image = findViewById(R.id.mig350_500_shunt_image);
+        mig350_500_fan_image = findViewById(R.id.mig350_500_fan_image);
+        mig350_500_transform_image = findViewById(R.id.mig350_500_transform_image);
 
         downloadImage();
+
     }
 
     private void downloadImage() {
@@ -59,7 +74,7 @@ public class MIG350_500_parts extends AppCompatActivity {
         Glide.with(this).load(url2)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
-                .into(mig350_500_dross_image;
+                .into(mig350_500_dross_image);
 
         String url3 = "https://github.com/max83100/123/blob/main/spare_parts/MIG%20350%20-%20500/%D0%B4%D1%80%D0%BE%D1%81%D1%81%D0%B5%D0%BB%D1%8C%20%D1%8D%D0%BC%D0%BF.jpg?raw=true";
         Glide.with(this).load(url3)
@@ -103,17 +118,53 @@ public class MIG350_500_parts extends AppCompatActivity {
                 .error(R.drawable.ic_launcher_foreground)
                 .into(mig350_500_driver_board_image);
 
-        String url10 = "";
+        String url10 = "https://github.com/max83100/123/blob/main/spare_parts/MIG%20350%20-%20500/%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%B0%D1%8E%D1%89%D0%B5%D0%B3%D0%BE%20%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%B7%D0%BC%D0%B0.jpg?raw=true";
         Glide.with(this).load(url10)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
-                .into(mig350_500_plastic_image);
+                .into(mig350_500_mech_board_image);
 
-        String url11 = "";
+        String url11 = "https://github.com/max83100/123/blob/main/spare_parts/MIG%20350%20-%20500/%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20NB-AKZ-A6.jpg?raw=true";
         Glide.with(this).load(url11)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
-                .into(mig350_500_plastic_image);
+                .into(mig350_500_control_board_image);
+
+        String url12 = "https://github.com/max83100/123/blob/main/spare_parts/MIG%20350%20-%20500/%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%B2%20XS03-A2.jpg?raw=true";
+        Glide.with(this).load(url12)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(mig350_500_filter_board_image);
+
+        String url13 = "https://github.com/max83100/123/blob/main/spare_parts/MIG%20350%20-%20500/%D1%80%D0%B0%D0%B4%D0%B8%D0%B0%D1%82%D0%BE%D1%80.jpg?raw=true";
+        Glide.with(this).load(url13)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(mig350_500_radiator_image);
+
+        String url14 = "https://github.com/max83100/123/blob/main/spare_parts/MIG%20350%20-%20500/%D1%81%D1%82%D0%BE%D0%B9%D0%BA%D0%B0%20%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F.jpg?raw=true";
+        Glide.with(this).load(url14)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(mig350_500_plastic_stand_image);
+
+        String url15 = "https://github.com/max83100/123/blob/main/spare_parts/MIG%20350%20-%20500/%D1%82%D0%BE%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%88%D1%83%D0%BD%D1%82.jpg?raw=true";
+        Glide.with(this).load(url15)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(mig350_500_shunt_image);
+
+        String url16 = "https://github.com/max83100/123/blob/main/spare_parts/%D0%B2%D0%B5%D0%BD%D1%82%D0%B8%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D1%8B/G21070HA2BL.jpg?raw=true";
+        Glide.with(this).load(url16)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(mig350_500_fan_image);
+
+        String url17 = "https://github.com/max83100/123/blob/main/spare_parts/TRANSFORMATOR/YFYP-A2077(2).jpg?raw=true";
+        Glide.with(this).load(url17)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(mig350_500_transform_image);
 
 
     }

@@ -3,7 +3,10 @@ package com.example.fixit.parts.tig_models;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -17,11 +20,14 @@ public class TIG_200_DC_parts extends AppCompatActivity {
     ImageView tig200dc_hf_board_image;
     ImageView tig200dc_invertor_board_image;
     ImageView tig200dc_control_board_image;
+    Button inside;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tig200_dc_parts);
+        inside = findViewById(R.id.tig200dc_inside);
+        inside.setOnClickListener(this::onClick);
 
         tig200dc_front_board_image = findViewById(R.id.tig200dc_front_board_image);
         String url4 = "https://github.com/max83100/123/blob/main/spare_parts/TIG%20200%20DC%20Puls%20Hanker/%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20%D0%BB%D0%B8%D1%86%D0%B5%D0%B2%D0%B0%D1%8F%20W.%20496RM.164-A.jpg?raw=true";
@@ -55,5 +61,14 @@ public class TIG_200_DC_parts extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), TIG_parts.class);
         startActivity(intent);
         overridePendingTransition(0,0);
+    }
+
+    public void onClick(View v) {
+        if (v.getId() == R.id.tig200dc_inside) {
+            Uri address = Uri.parse(
+                    "https://drive.google.com/drive/folders/1G0CufLysBMflor2FsTvA1t3jRsYT99MJ?usp=sharing");
+            Intent openlink = new Intent(Intent.ACTION_VIEW, address);
+            startActivity(openlink);
+        }
     }
 }

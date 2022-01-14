@@ -3,7 +3,10 @@ package com.example.fixit.parts.cut_models;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -15,11 +18,14 @@ public class CUT_60_parts extends AppCompatActivity {
     ImageView cut60_front_board_image;
     ImageView cut60_invertor_board_image;
     ImageView cut60_control_board_image;
+    Button inside;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cut60_parts);
+        inside = findViewById(R.id.cut60_inside);
+        inside.setOnClickListener(this::onClick);
 
         cut60_power_board_image = findViewById(R.id.cut60_power_board_image);
         String url = "https://github.com/max83100/123/blob/main/spare_parts/CUT%2060/%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20%D0%B1%D0%BB%D0%BE%D0%BA%D0%B0%20%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F.jpg?raw=true";
@@ -53,5 +59,14 @@ public class CUT_60_parts extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), CUT_parts.class);
         startActivity(intent);
         overridePendingTransition(0,0);
+    }
+
+    private void onClick(View v) {
+        if (v.getId() == R.id.cut60_inside) {
+            Uri address = Uri.parse(
+                    "https://drive.google.com/drive/folders/1U-_kDfOrX0GNTNdD0giPtT2oLi1woor6?usp=sharing");
+            Intent openlink = new Intent(Intent.ACTION_VIEW, address);
+            startActivity(openlink);
+        }
     }
 }

@@ -181,5 +181,149 @@
             android:layout_marginBottom="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig350_500_mech_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Панель подающего механизма"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig350_500_mech_board_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig350_500_control_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Плата управления \n артикул NB-AKZ-A6"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig350_500_control_board_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig350_500_filter_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Плата фильтров \n артикул XS03-A2"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig350_500_filter_board_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig350_500_radiator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Радиатор"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig350_500_radiator_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig350_500_plastic_stand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Пластиковая стойка"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig350_500_plastic_stand_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig350_500_shunt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Токовый шунт"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig350_500_shunt_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig350_500_fan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Вентилятор \n артикул G21070HA2BL"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig350_500_fan_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig350_500_transform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Трансформатор \n артикул YFYP-A1610 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig350_500_transform_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
     </LinearLayout>
 </ScrollView>

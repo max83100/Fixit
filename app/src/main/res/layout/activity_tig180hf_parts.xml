@@ -4,35 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".parts.cut_models.CUT_60_parts">
+    tools:context=".parts.tig_models.TIG_180hf_parts">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:gravity="center"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/cut60_inside"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/button_shape"
-            android:text="Фото внутренностей" />
-
         <TextView
-            android:id="@+id/cut60_power_board"
+            android:id="@+id/tig180_power_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="Плата блока питания \n артикул дописать "
+            android:text="Плата блока питания \n артикул PN-PCB-Z22-A0"
             android:textColor="#151515"
             android:textSize="24sp" />
 
         <ImageView
-            android:id="@+id/cut60_power_board_image"
+            android:id="@+id/tig180_power_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"
@@ -40,18 +31,17 @@
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <TextView
-            android:id="@+id/cut60_front_board"
+            android:id="@+id/tig180_diode_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="Плата лицевая \n артикул W.496RM.230 "
+            android:text="Плата выходных диодов \n артикул PN-PCB-D26-B0"
             android:textColor="#151515"
             android:textSize="24sp" />
 
         <ImageView
-            android:id="@+id/cut60_front_board_image"
+            android:id="@+id/tig180_diode_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"
@@ -59,18 +49,17 @@
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <TextView
-            android:id="@+id/cut60_invertor_board"
+            android:id="@+id/tig180_invertor_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="Плата инвертора \n артикул W. 422RM.668 "
+            android:text="Плата инвертора \n артикул PN-PCB-M26-A1"
             android:textColor="#151515"
             android:textSize="24sp" />
 
         <ImageView
-            android:id="@+id/cut60_invertor_board_image"
+            android:id="@+id/tig180_invertor_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"
@@ -78,22 +67,23 @@
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <TextView
-            android:id="@+id/cut60_control_board"
+            android:id="@+id/tig180_hf_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="Плата управления \n артикул W. 496.124-B-3 "
+            android:text="Плата осциллятора \n артикул PN-PCB-G01-A1"
             android:textColor="#151515"
             android:textSize="24sp" />
 
         <ImageView
-            android:id="@+id/cut60_control_board_image"
+            android:id="@+id/tig180_hf_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/ic_launcher_foreground" />
+
     </LinearLayout>
+
 </ScrollView>

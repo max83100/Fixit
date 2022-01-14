@@ -37,5 +37,167 @@
             android:layout_marginBottom="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tig200_plastic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Комплект пластиковых панелей"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/tig200_plastic_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tig200_stick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Наклейка на пластиковую панель"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/tig200_stick_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tig200_secound_invertor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Плата вторичного инвертора \n артикул DX50025"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/tig200_secound_invertor_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tig200_first_invertor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Плата первичного инвертора \n артикул DX50026"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/tig200_first_invertor_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tig200_driver_first_invertor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Плата драйвера первичного инвертора \n артикул DP03210"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/tig200_driver_first_invertor_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tig200_driver_secound_invertor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Плата драйвера вторичного инвертора \n артикул DX01579"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/tig200_driver_secound_invertor_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tig200_front_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Плата индикации \n артикул DP03208"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/tig200_front_board_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tig200_hf_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Плата осциллятора \n артикул DX01580"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/tig200_hf_board_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tig200_control_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Плата управления \n артикул DX00011"
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/tig200_control_board_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
     </LinearLayout>
 </ScrollView>

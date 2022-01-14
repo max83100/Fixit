@@ -65,5 +65,113 @@
             android:layout_marginBottom="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig295_rectifilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Диодный мост \n артикул Y04070014 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig295_rectifilter_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig295_valve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Клапан \n артикул YG2T-2 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig295_valve_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig295_mech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Механизм подачи \n артикул Y22030014 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig295_mech_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig295_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Переключатель 3 положения \n артикул KDHC-32-3-3 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig295_switch_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig295_switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Переключатель 10 положений \n артикул KDHC-32-3-10 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig295_switch2_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig295_transform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Трансформатор \n артикул XFYP-A1752 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mig295_transform_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
     </LinearLayout>
 </ScrollView>
