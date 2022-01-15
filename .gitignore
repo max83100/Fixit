@@ -13,4 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
-/main/java/com/example/fixit/menu_java/send_mail
+
+/app/src/main/java/com/example/fixit/menu_java/send_mail/
