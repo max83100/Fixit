@@ -152,7 +152,7 @@
         <activity
             android:name=".parts.arc_models.ARC_315_parts"
             android:exported="false"
-            android:label="ЗИП ARC 315" />
+            android:label="ЗИП ARC 300" />
         <activity
             android:name=".parts.arc_models.ARC_250LT_parts"
             android:exported="false"
