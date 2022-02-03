@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.example.fixit.R;
+import com.example.fixit.TIG_catalog;
 
 public class WSME315WC extends AppCompatActivity implements View.OnClickListener {
     ImageView wsme_315wc_arc_error_image;
@@ -50,5 +51,10 @@ public class WSME315WC extends AppCompatActivity implements View.OnClickListener
                 startActivity(webmig);
                 break;
         }
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), TIG_catalog.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

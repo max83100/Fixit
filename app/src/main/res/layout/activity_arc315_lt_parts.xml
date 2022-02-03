@@ -24,7 +24,7 @@
             android:id="@+id/arc315lt_power_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата блока питания \n артикул W. 496RM.397-D "
@@ -43,7 +43,7 @@
             android:id="@+id/arc315lt_plastic_front"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Передняя пластиковая панель \n артикул 8.068.870 "
@@ -62,7 +62,7 @@
             android:id="@+id/arc315lt_plastic_back"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Задняя пластиковая панель \n артикул 8.068.821 "

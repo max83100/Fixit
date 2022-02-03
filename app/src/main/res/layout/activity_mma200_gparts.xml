@@ -24,7 +24,7 @@
             android:id="@+id/mma200g_invertor_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата инвертора \n артикул 5.496RM.139"
@@ -43,7 +43,7 @@
             android:id="@+id/mma200g_front_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата лицевая \n артикул 5.496RM.089-A "
@@ -62,7 +62,7 @@
             android:id="@+id/mma200g_control_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата управления \n артикул W. 496RM.088-C-6 "
@@ -81,7 +81,7 @@
             android:id="@+id/mma200g_plastic_front"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Передняя пластиковая панель"

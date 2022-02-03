@@ -24,7 +24,7 @@
         android:id="@+id/mig200en_europlug"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:textIsSelectable="true"
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:text="Евроразъём "
@@ -43,7 +43,7 @@
         android:id="@+id/mig200en_polarity_pin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:textIsSelectable="true"
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:text="Штырь смены полярности"
@@ -62,7 +62,7 @@
         android:id="@+id/mig200en_invertor_board"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:textIsSelectable="true"
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:text="Плата инвертора \n артикул DX50009"
@@ -82,7 +82,7 @@
         android:id="@+id/mig200en_front_board"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:textIsSelectable="true"
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:text="Плата индикации \n артикул DX01577"
@@ -101,7 +101,7 @@
         android:id="@+id/mig200en_plastic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:textIsSelectable="true"
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:text="Комплект пластиковых панелей"
@@ -120,7 +120,7 @@
         android:id="@+id/mig200en_control_board"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:textIsSelectable="true"
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:text="Плата управления \n артикул DX01577"
@@ -141,6 +141,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center_horizontal"
+        android:textIsSelectable="true"
         android:text="Механизм подачи"
         android:textColor="#151515"
         android:textSize="24sp" />
@@ -159,6 +160,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center_horizontal"
+        android:textIsSelectable="true"
         android:text="Вентилятор"
         android:textColor="#151515"
         android:textSize="24sp" />

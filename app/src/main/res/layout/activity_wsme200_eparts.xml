@@ -18,6 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата первичного инвертора \n артикул W. 496RM.328-F"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -36,6 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата вторичного инвертора \n артикул W. 496RM.329-B"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -54,6 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата индикации \n артикул W.496RM.339-A"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -72,6 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата управления \n артикул W. 496RM.402-J"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -90,6 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Передняя пластиковая панель \n артикул 8.069.957"
             android:textColor="#151515"
             android:textSize="24sp" />

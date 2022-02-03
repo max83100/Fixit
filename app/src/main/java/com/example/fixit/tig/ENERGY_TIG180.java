@@ -10,7 +10,9 @@ import android.view.View;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
+import com.example.fixit.MIG_catalog;
 import com.example.fixit.R;
+import com.example.fixit.TIG_catalog;
 
 public class ENERGY_TIG180 extends AppCompatActivity {
 
@@ -39,5 +41,10 @@ public class ENERGY_TIG180 extends AppCompatActivity {
                 break;
 
         }
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), TIG_catalog.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

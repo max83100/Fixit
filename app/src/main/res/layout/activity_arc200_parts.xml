@@ -16,7 +16,7 @@
             android:id="@+id/arc200_invertor_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата инвертора \n артикул DX50087"
@@ -35,7 +35,7 @@
         android:id="@+id/arc200_diode_board"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:text="Плата выходных диодов \n артикул DX01054 "
@@ -54,7 +54,7 @@
             android:id="@+id/arc200_plastic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Комплект пластиковых панелей"

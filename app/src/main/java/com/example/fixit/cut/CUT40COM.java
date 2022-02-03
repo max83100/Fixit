@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.fixit.CUT_catalog;
 import com.example.fixit.R;
 
 public class CUT40COM extends AppCompatActivity {
@@ -32,5 +33,10 @@ public class CUT40COM extends AppCompatActivity {
                 startActivity(webmig);
                 break;
         }
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), CUT_catalog.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

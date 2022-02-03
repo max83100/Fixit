@@ -107,6 +107,14 @@
             android:inputType="textEmailAddress" />
 
         <Button
+            android:id="@+id/add_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Button"
+            android:visibility="invisible" />
+
+        <Button
             android:id="@+id/send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

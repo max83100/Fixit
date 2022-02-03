@@ -24,10 +24,10 @@
             android:id="@+id/cut60_power_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="Плата блока питания \n артикул дописать "
+            android:text="Плата блока питания \n W.496.RM.212 "
             android:textColor="#151515"
             android:textSize="24sp" />
 
@@ -43,7 +43,7 @@
             android:id="@+id/cut60_front_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата лицевая \n артикул W.496RM.230 "
@@ -62,7 +62,7 @@
             android:id="@+id/cut60_invertor_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата инвертора \n артикул W. 422RM.668 "
@@ -81,7 +81,7 @@
             android:id="@+id/cut60_control_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата управления \n артикул W. 496.124-B-3 "

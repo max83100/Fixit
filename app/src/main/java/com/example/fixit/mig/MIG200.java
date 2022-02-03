@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.example.fixit.MIG_catalog;
 import com.example.fixit.R;
 
 public class MIG200 extends AppCompatActivity implements View.OnClickListener {
@@ -40,5 +41,10 @@ ImageView torch;
                 startActivity(webmig200);
                 break;
         }
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), MIG_catalog.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

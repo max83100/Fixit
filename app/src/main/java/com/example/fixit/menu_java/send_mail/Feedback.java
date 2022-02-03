@@ -3,14 +3,18 @@ package com.example.fixit.menu_java.send_mail;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.fixit.R;
 import com.example.fixit.menu_java.Other;
+
+import java.io.File;
 
 public class Feedback extends AppCompatActivity implements View.OnClickListener {
     EditText name_feedback;
@@ -18,6 +22,7 @@ public class Feedback extends AppCompatActivity implements View.OnClickListener 
     EditText text_feedback;
     EditText number_feedback;
     Button send_feedback;
+    private File chosenImageUri = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +50,8 @@ public class Feedback extends AppCompatActivity implements View.OnClickListener 
 
 
         //Creating SendMail object
-        SendMail sm = new SendMail(this, mail, subject, msg);
+
+        SendMail sm = new SendMail(this, mail, subject, msg,chosenImageUri);
 
         //Executing sendmail to send email
         sm.execute();

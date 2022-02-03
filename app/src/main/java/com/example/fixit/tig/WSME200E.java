@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.fixit.R;
+import com.example.fixit.TIG_catalog;
 
 public class WSME200E extends AppCompatActivity implements View.OnClickListener {
 
@@ -26,5 +27,10 @@ public class WSME200E extends AppCompatActivity implements View.OnClickListener 
                 break;
 
         }
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), TIG_catalog.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.example.fixit.R;
+import com.example.fixit.TIG_catalog;
 
 
 public class ENERGY_TIG200 extends AppCompatActivity implements View.OnClickListener {
@@ -43,5 +44,10 @@ ImageView tig200_ac_image;
                 startActivity(webmig);
                 break;
         }
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), TIG_catalog.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

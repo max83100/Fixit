@@ -2,9 +2,7 @@ package com.example.fixit.menu_java;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.NavUtils;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -14,7 +12,6 @@ import android.view.View;
 import com.example.fixit.R;
 import com.example.fixit.menu_java.new_list_service.New_Services;
 import com.example.fixit.menu_java.send_mail.Feedback;
-import com.example.fixit.menu_java.send_mail.SendMail;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Other extends AppCompatActivity implements View.OnClickListener {
@@ -29,7 +26,7 @@ public class Other extends AppCompatActivity implements View.OnClickListener {
 
         bottomNavigationView = (BottomNavigationView)
                 findViewById(R.id.bottom_navigation_other);
-        bottomNavigationView.setSelectedItemId(R.id.other);
+        bottomNavigationView.setSelectedItemId(R.id.menu);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(
                 new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -48,7 +45,7 @@ public class Other extends AppCompatActivity implements View.OnClickListener {
                                 finish();
                                 overridePendingTransition(0,0);
                                 break;
-                            case R.id.other:
+                            case R.id.menu:
                             return false;
                         }
 

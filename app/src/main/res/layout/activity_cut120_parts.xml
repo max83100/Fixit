@@ -24,7 +24,7 @@
             android:id="@+id/cut120_driver_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата драйвера \n артикул LG-GN-A1 "
@@ -43,7 +43,7 @@
             android:id="@+id/cut120_arc_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата розжига дуги \n артикул LG-SG-WH-A5 "
@@ -62,7 +62,7 @@
             android:id="@+id/cut120_control_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата управления \n артикул LG-GD-A0 "

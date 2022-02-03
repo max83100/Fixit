@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.fixit.MIG_catalog;
 import com.example.fixit.R;
 
 public class MIG200P extends AppCompatActivity implements View.OnClickListener {
@@ -27,5 +28,10 @@ public class MIG200P extends AppCompatActivity implements View.OnClickListener {
                 break;
 
         }
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), MIG_catalog.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

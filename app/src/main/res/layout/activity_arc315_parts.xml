@@ -16,7 +16,7 @@
             android:id="@+id/arc315_power_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата блока питания \n артикул W. 496RM.279 "
@@ -35,7 +35,7 @@
             android:id="@+id/arc315_driver_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата драйвера \n артикул W. 496RM.374-C "
@@ -54,7 +54,7 @@
             android:id="@+id/arc315_front_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата лицевая \n артикул 8.067RM.085D "
@@ -73,7 +73,7 @@
             android:id="@+id/arc315_invertor_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата инвертора \n артикул 5.497RM.209 "
@@ -92,6 +92,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textIsSelectable="true"
             android:gravity="center_horizontal"
             android:text="Трансформатор \n артикул YFYP-A1610 "
             android:textColor="#151515"

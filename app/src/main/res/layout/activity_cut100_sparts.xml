@@ -16,7 +16,7 @@
             android:id="@+id/cut100s_tranzistor_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата транзисторов \n артикул 5.496.466-C "
@@ -35,7 +35,7 @@
             android:id="@+id/cut100s_control_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата управления \n артикул 5.496.948-C-3 "

@@ -23,7 +23,7 @@
             android:id="@+id/arc250lt_front_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата лицевая \n артикул W. 496RM.388-G "
@@ -42,7 +42,7 @@
             android:id="@+id/arc250lt_invertor_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата инвертора \n артикул W.422RM.210 "

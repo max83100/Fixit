@@ -15,7 +15,7 @@
             android:id="@+id/cut40_drossel_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Дроссель \n артикул L. 185RM.608-B "
@@ -34,7 +34,7 @@
             android:id="@+id/cut40_drossel_board2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата с дросселем \n артикул 5.496RM.080-C "
@@ -53,7 +53,7 @@
             android:id="@+id/cut40_invertor_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата инвертора \n артикул S. 200RM.659 "
@@ -72,7 +72,7 @@
             android:id="@+id/cut40_front_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата лицевая \n артикул W. 496RM.497-A "

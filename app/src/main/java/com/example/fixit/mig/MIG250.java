@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.example.fixit.MIG_catalog;
 import com.example.fixit.R;
 
 public class MIG250 extends AppCompatActivity {
@@ -40,5 +41,10 @@ public class MIG250 extends AppCompatActivity {
                 startActivity(webmig200);
                 break;
         }
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), MIG_catalog.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

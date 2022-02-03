@@ -7,6 +7,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.fixit.CUT_catalog;
+import com.example.fixit.MIG_catalog;
 import com.example.fixit.R;
 
 public class ENERGY_MIG160_200 extends AppCompatActivity {
@@ -32,5 +34,10 @@ public class ENERGY_MIG160_200 extends AppCompatActivity {
                 startActivity(intentwebmig160);
                 break;
         }
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), MIG_catalog.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

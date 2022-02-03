@@ -12,8 +12,8 @@
         android:title="ЗИП"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/other"
+        android:id="@+id/menu"
         android:icon="@drawable/notes"
-        android:title="Разное"
+        android:title="Меню"
         app:showAsAction="ifRoom" />
 </menu>

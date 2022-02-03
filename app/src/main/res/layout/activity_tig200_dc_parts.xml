@@ -26,6 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата индикации \n артикул W. 496RM.164-A"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -44,6 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата осциллятора \n артикул W. 496RM.434-C"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -62,6 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата инвертора \n артикул W. 422RM.405-GR"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -79,6 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textIsSelectable="true"
             android:gravity="center_horizontal"
             android:text="Плата управления \n артикул W. 496RM.308-I"
             android:textColor="#151515"

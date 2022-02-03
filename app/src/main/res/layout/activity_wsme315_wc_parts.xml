@@ -23,7 +23,7 @@
             android:id="@+id/wsme315wc_front_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата индикации \n артикул 8.066.641-b"
@@ -42,7 +42,7 @@
             android:id="@+id/wsme315wc_power_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата блока питания \n артикул 5.496.570-J-1"
@@ -63,6 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата первичного инвертора \n артикул 5.496.974-H-4"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -81,6 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата вторичного инвертора \n артикул 5.496.720-B"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -99,6 +101,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата осциллятора \n артикул 5.496.470-K-4"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -117,6 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата управления \n артикул 5.496.239-L-2"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -135,6 +139,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата стабилизации дуги \n артикул 5.496.875-L-1"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -153,6 +158,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Задняя пластиковая панель \n артикул 8.068.998"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -171,6 +177,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Передняя пластиковая панель \n артикул 8.069.998"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -189,6 +196,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Вентилятор"
             android:textColor="#151515"
             android:textSize="24sp" />

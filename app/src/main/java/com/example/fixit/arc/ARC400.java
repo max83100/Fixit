@@ -8,7 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.fixit.ARC_catalog;
 import com.example.fixit.R;
+import com.example.fixit.menu_java.Spare_parts;
 
 public class ARC400 extends AppCompatActivity {
 
@@ -35,5 +37,10 @@ public class ARC400 extends AppCompatActivity {
                 startActivity(webmig);
                 break;
         }
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), ARC_catalog.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

@@ -2,17 +2,13 @@ package com.example.fixit.menu_java;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.NavUtils;
-import androidx.navigation.ui.AppBarConfiguration;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import com.example.fixit.ARC_catalog;
 import com.example.fixit.CUT_catalog;
@@ -50,7 +46,7 @@ public class Bottom extends AppCompatActivity implements View.OnClickListener {
                                 finish();
                                 overridePendingTransition(0,0);
                                 break;
-                            case R.id.other:
+                            case R.id.menu:
                                 intent = new Intent(getApplicationContext(), Other.class);
                                 startActivity(intent);
                                 finish();

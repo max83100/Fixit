@@ -3,7 +3,6 @@ package com.example.fixit.menu_java;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -56,7 +55,7 @@ public class Spare_parts extends AppCompatActivity {
                                 break;
                             case R.id.parts:
                                 return false;
-                            case R.id.other:
+                            case R.id.menu:
                                 intent = new Intent(getApplicationContext(), Other.class);
                                 startActivity(intent);
                                 finish();

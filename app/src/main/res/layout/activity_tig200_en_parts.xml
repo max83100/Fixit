@@ -27,6 +27,7 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Ручка"
+            android:textIsSelectable="true"
             android:textColor="#151515"
             android:textSize="24sp" />
 
@@ -44,6 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Комплект пластиковых панелей"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -62,6 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Наклейка на пластиковую панель"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -80,6 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата вторичного инвертора \n артикул DX50025"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -98,6 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата первичного инвертора \n артикул DX50026"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -116,6 +121,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата драйвера первичного инвертора \n артикул DP03210"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -134,6 +140,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата драйвера вторичного инвертора \n артикул DX01579"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -152,6 +159,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата индикации \n артикул DP03208"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -170,6 +178,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата осциллятора \n артикул DX01580"
             android:textColor="#151515"
             android:textSize="24sp" />
@@ -188,6 +197,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textIsSelectable="true"
             android:text="Плата управления \n артикул DX00011"
             android:textColor="#151515"
             android:textSize="24sp" />

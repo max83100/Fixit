@@ -24,7 +24,7 @@
             android:id="@+id/mig315_front_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textIsSelectable="true"
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Плата управления \n артикул Y13089027 "
