@@ -12,14 +12,14 @@ import java.util.ArrayList;
 
 public class MyDatabaseHelper extends SQLiteAssetHelper {
     private static final String DATABASE_NAME = "services.db";
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 3;
     Context context;
 
 
     public MyDatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
         this.context = context;
-        setForcedUpgrade(1);
+        setForcedUpgrade(3);
     }
     public ArrayList<DBData> getAllData(){
         try {

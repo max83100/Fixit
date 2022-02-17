@@ -63,7 +63,9 @@
                 android:id="@+id/tig200_ac_resolve"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Если у вас не работает режим АС то проверьте транзистор отмеченный на фото " />
+                android:text="Если у вас не работает режим АС то проверьте транзистор в плате вторичного инвертора
+                отмеченный на фото он не должен быть
+в КЗ" />
         </LinearLayout>
     </ScrollView>
 

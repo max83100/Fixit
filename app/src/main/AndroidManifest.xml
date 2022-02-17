@@ -77,11 +77,11 @@
         <activity
             android:name=".parts.tig_models.TIG_200_EN_parts"
             android:exported="false"
-            android:label="ЗИП TIG 200 AC/DC" />
+            android:label="ЗИП ENERGY TIG 200 AC/DC" />
         <activity
             android:name=".parts.tig_models.TIG_200_DC_parts"
             android:exported="false"
-            android:label="ЗИП TIG 200DC" />
+            android:label="ЗИП TIG 200 DC" />
         <activity
             android:name=".parts.mig_models.MULTIMIG_200_PFC_parts"
             android:exported="false"
@@ -181,7 +181,7 @@
         <activity
             android:name=".menu_java.Other"
             android:exported="false"
-            android:label="Разное" />
+            android:label="Меню" />
         <activity
             android:name=".menu_java.Spare_parts"
             android:exported="false"
@@ -246,7 +246,7 @@
         </activity>
         <activity
             android:name=".tig.TIG200_DC"
-            android:label="TIG 200DC" />
+            android:label="TIG 200 DC" />
         <activity
             android:name=".arc.ENERGY_ARC220"
             android:label="ENERGY ARC 220" />
@@ -261,7 +261,7 @@
             android:label="MIG 500W" />
         <activity
             android:name=".tig.ENERGY_TIG180"
-            android:label="ENERGY TIG 180" />
+            android:label="ENERGY TIG 180 HF" />
         <activity
             android:name=".cut.CUT45P"
             android:label="CUT 45P" />
@@ -303,7 +303,7 @@
             android:label="MIG 200" />
         <activity
             android:name=".tig.ENERGY_TIG200"
-            android:label="ENERGY TIG 200" />
+            android:label="ENERGY TIG 200 AC/DC" />
         <activity
             android:name=".tig.WSME200"
             android:label="WSME 200" />

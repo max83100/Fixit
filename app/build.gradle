@@ -10,9 +10,9 @@ android {
     defaultConfig {
         applicationId "com.grovers_repair"
         minSdkVersion 16
-        targetSdkVersion 29
-        versionCode 1
-        versionName "2.0"
+        targetSdkVersion 30
+        versionCode 7
+        versionName "2.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
