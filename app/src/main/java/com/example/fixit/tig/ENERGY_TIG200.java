@@ -15,16 +15,28 @@ import com.example.fixit.TIG_catalog;
 
 public class ENERGY_TIG200 extends AppCompatActivity implements View.OnClickListener {
 ImageView tig200_ac_image;
+ImageView tig200_hf;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_energy_tig200);
+        preload();
+
+    }
+
+    private void preload() {
         tig200_ac_image = findViewById(R.id.tig200_ac_image);
         String url = "https://github.com/max83100/123/blob/main/problems/Tig200_ac_problem.jpg?raw=true";
         Glide.with(this).load(url)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(tig200_ac_image);
+        tig200_hf = findViewById(R.id.tig200_hf);
+        String url2 = "https://github.com/max83100/123/blob/main/problems/tig%20200%20energy_hf_problem.jpg?raw=true";
+        Glide.with(this).load(url2)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(tig200_hf);
     }
 
     @Override

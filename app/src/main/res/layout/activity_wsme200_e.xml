@@ -46,7 +46,7 @@
                 android:textColor="#0E0E0E"
                 android:textSize="20sp" />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"

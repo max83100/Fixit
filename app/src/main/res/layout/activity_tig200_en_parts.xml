@@ -31,7 +31,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/tig200_handle_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -50,7 +50,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/tig200_plastic_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -69,7 +69,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/tig200_stick_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -88,7 +88,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/tig200_secound_invertor_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -107,7 +107,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/tig200_first_invertor_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -126,7 +126,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/tig200_driver_first_invertor_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -145,7 +145,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/tig200_driver_secound_invertor_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -164,7 +164,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/tig200_front_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -183,7 +183,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/tig200_hf_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -202,7 +202,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/tig200_control_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"

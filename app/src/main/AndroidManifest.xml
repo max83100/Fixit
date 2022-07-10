@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.fixit">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -15,7 +16,8 @@
         android:screenOrientation="landscape"
         android:roundIcon="@mipmap/new_icon_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FixIt">
+        android:theme="@style/Theme.FixIt"
+        tools:targetApi="n">
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 
         <activity
@@ -237,7 +239,8 @@
             android:label="Ручная дуговая сварка" />
         <activity
             android:name=".Splash_screen"
-            android:theme="@style/Theme.FixIt.NoActionBar">
+            android:theme="@style/Theme.FixIt.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

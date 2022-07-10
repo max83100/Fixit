@@ -23,7 +23,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme200e_invertor1_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -42,7 +42,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme200e_invertor2_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -61,7 +61,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme200e_front_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -80,7 +80,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme200e_control_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -99,7 +99,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme200e_plastic_front_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"

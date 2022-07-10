@@ -22,7 +22,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/cut40com_drossel_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -41,7 +41,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/cut40com_drossel_board_image2"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -60,7 +60,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/cut40com_invertor_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -79,7 +79,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/cut40com_front_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -98,7 +98,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/cut40com_comp_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"

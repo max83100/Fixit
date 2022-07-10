@@ -53,7 +53,7 @@
                 android:textColor="#0E0E0E"
                 android:textSize="24sp" />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/cut60_arc_problem_image"
                 android:layout_width="match_parent"
                 android:layout_height="283dp"

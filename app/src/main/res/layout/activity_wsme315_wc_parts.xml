@@ -30,7 +30,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme315wc_front_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -49,7 +49,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme315wc_power_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -68,7 +68,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme315wc_first_invertor_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -87,7 +87,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme315wc_sec_invertor_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -106,7 +106,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme315wc_hf_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -125,7 +125,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme315wc_control_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -144,7 +144,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme315wc_arc_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -163,7 +163,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme315wc_back_plastic_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -182,7 +182,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme315wc_front_plastic_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -201,7 +201,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/wsme315wc_fan_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"

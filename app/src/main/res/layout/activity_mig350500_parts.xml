@@ -31,7 +31,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_plastic_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -50,7 +50,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_dross_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -69,7 +69,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_dross2_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -88,7 +88,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_dross3_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -107,7 +107,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_dross4_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -126,7 +126,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_roll_back_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -145,7 +145,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_roll_front_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -164,7 +164,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_cond_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -183,7 +183,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_driver_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -202,7 +202,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_mech_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -221,7 +221,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_control_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -240,7 +240,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_filter_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -259,7 +259,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_radiator_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -278,7 +278,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_plastic_stand_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -297,7 +297,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_shunt_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -316,7 +316,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_fan_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -335,7 +335,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig350_500_transform_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"

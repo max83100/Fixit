@@ -20,6 +20,7 @@ public class MIG220C extends AppCompatActivity {
     ImageView ac_dont_work;
     ImageView dc_dont_work;
     ImageView ac_problem;
+    ImageView ac_problem2;
     ImageView dc_problem;
 
     @Override
@@ -70,9 +71,15 @@ public class MIG220C extends AppCompatActivity {
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(ac_problem);
-        dc_problem = findViewById(R.id.dc_dont_work);
-        String url7 = "https://github.com/max83100/123/blob/main/problems/MIG220C_dclocate.jpg";
+        ac_problem2 = findViewById(R.id.ac_problem2);
+        String url7 = "https://github.com/max83100/123/blob/main/problems/MIG220C_ac_problem2.jpg?raw=true";
         Glide.with(this).load(url7)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(ac_problem2);
+        dc_problem = findViewById(R.id.dc_dont_work);
+        String url8 = "https://github.com/max83100/123/blob/main/problems/MIG220C_dclocate.jpg?raw=true";
+        Glide.with(this).load(url8)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(dc_problem);

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "343142707722",
+    "project_id": "repair-33512",
+    "storage_bucket": "repair-33512.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343142707722:android:f9d198a9ba31de81a725f3",
+        "android_client_info": {
+          "package_name": "com.grovers_repair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343142707722-einjsvuq5r89e22s3k5udr4rso476lv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grovers_repair",
+            "certificate_hash": "e373fa19868cebb8a216825afefe6a52575decd7"
+          }
+        },
+        {
+          "client_id": "343142707722-4ai47lpqisv1o8tv3l2abt69ohupvke4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfc9iSGCTl0VGT1aEmyYkoT1WTpaC2crk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343142707722-4ai47lpqisv1o8tv3l2abt69ohupvke4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -31,7 +31,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig160_europlug_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -50,7 +50,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig160_polarity_pin_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -69,7 +69,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig160_invertor_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -88,7 +88,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig160_front_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -107,7 +107,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig160_plastic_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -126,7 +126,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig160en_control_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -145,7 +145,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig160en_mech_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -164,7 +164,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig160en_fan_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"

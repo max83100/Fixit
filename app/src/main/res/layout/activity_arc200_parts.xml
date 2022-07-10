@@ -23,7 +23,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/arc200_invertor_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -42,7 +42,7 @@
         android:textColor="#151515"
         android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/arc200_diode_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -61,7 +61,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/arc200_plastic_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"

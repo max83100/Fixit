@@ -31,7 +31,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig220c_dross_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -50,7 +50,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig220c_polarity_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -69,7 +69,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig220c_front_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -88,7 +88,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig220c_hf_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -107,7 +107,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig220c_buttons_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -126,7 +126,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig220c_control_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -145,7 +145,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig220c_invertor_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -164,7 +164,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig220c_plastic_front_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -183,7 +183,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig220c_plastic_back_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -203,7 +203,7 @@
             android:textSize="24sp"
             android:visibility="invisible" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/mig220c_mech_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"

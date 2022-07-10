@@ -46,7 +46,7 @@
                 android:textColor="#121212"
                 android:textSize="24sp" />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/torch_problem"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"

@@ -55,14 +55,14 @@
                 android:textColor="#0E0E0E"
                 android:textSize="24sp" />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/wsme_315wc_arc_error_image"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/ic_launcher_foreground" />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/wsme_315wc_arc_error_image2"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"

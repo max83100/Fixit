@@ -55,7 +55,7 @@
                 android:textColor="#0E0E0E"
                 android:textSize="24sp" />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/hf_dont_work"
                 android:layout_width="match_parent"
                 android:layout_height="283dp"
@@ -85,14 +85,14 @@
                 android:layout_height="wrap_content"
                 android:text="Если у вас при замыкании контактов на евроразъёме срабатывает клапан но мотор не работает то замените микросхемы обозначенные на фото." />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/motor_power_pcb"
                 android:layout_width="match_parent"
                 android:layout_height="308dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/ic_launcher_foreground" />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/motor_controlpcb"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
@@ -111,11 +111,11 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:paddingTop="30dp"
-                android:text="При включении сразу показывает ошибку"
+                android:text="При включении сразу показывает ошибку или не включается"
                 android:textColor="#050505"
                 android:textSize="24sp" />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/pfc_error"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
@@ -137,7 +137,7 @@
                 android:textColor="#050505"
                 android:textSize="24sp" />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/ac_dont_work"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
@@ -157,14 +157,14 @@
                 android:text="Так же если у вас не работает режим АС то проверьте
 подключен ли контакт от выходных диодных модулей к силовой плате. Место контактов отмечено на фото." />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/ac_problem"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
                 android:layout_marginBottom="15dp"
                 app:srcCompat="@drawable/ic_launcher_foreground" />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/ac_problem2"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
@@ -180,7 +180,7 @@
                 android:textColor="#050505"
                 android:textSize="24sp" />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/dc_dont_work"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"

@@ -23,7 +23,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/arc165_invertor_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
@@ -42,7 +42,7 @@
             android:textColor="#151515"
             android:textSize="24sp" />
 
-        <ImageView
+        <com.github.chrisbanes.photoview.PhotoView
             android:id="@+id/arc165_plastic_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"

@@ -52,7 +52,7 @@
                 android:textColor="#050505"
                 android:textSize="24sp" />
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/mig250_motor_image"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
