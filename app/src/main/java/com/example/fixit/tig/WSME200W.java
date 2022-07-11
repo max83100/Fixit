@@ -38,7 +38,7 @@ public class WSME200W extends AppCompatActivity implements View.OnClickListener 
 
     private void preload() {
         front_problem = findViewById(R.id.wsme200_front_problem);
-        String url = "https://github.com/max83100/123/blob/main/problems/MIG220C_dclocate.jpg?raw=true";
+        String url = "https://github.com/max83100/123/blob/main/problems/wsme%20200w%20front%20problem.jpg?raw=true";
         Glide.with(this).load(url)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
