@@ -1,53 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.fixit">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:networkSecurityConfig="@xml/network_security_config"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:screenOrientation="landscape"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/new_icon_round"
+        android:screenOrientation="landscape"
         android:supportsRtl="true"
         android:theme="@style/Theme.FixIt"
         tools:targetApi="n">
-        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity
+            android:name=".parts.mig_models.MIG_500DP_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.mig_models.COMBO_200_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.tig_models.WSME_200_LCD_parts"
+            android:exported="false" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
 
         <activity
             android:name=".parts.tig_models.TIG_180hf_parts"
             android:exported="false"
-            android:label="ЗИП TIG 180HF"/>
+            android:label="ЗИП TIG 180HF" />
         <activity
             android:name=".parts.mig_models.MIG_200Energy_parts"
             android:exported="false"
-            android:label="ЗИП MIG 200"/>
+            android:label="ЗИП MIG 200" />
         <activity
             android:name=".parts.cut_models.CUT_45P_parts"
             android:exported="false"
-            android:label="ЗИП CUT 45P"/>
+            android:label="ЗИП CUT 45P" />
         <activity
             android:name=".parts.cut_models.CUT_40_com_parts"
             android:exported="false"
-            android:label="ЗИП CUT 40 com"/>
+            android:label="ЗИП CUT 40 com" />
         <activity
             android:name=".parts.arc_models.ARC_200_parts"
             android:exported="false"
-            android:label="ЗИП ARC 200"/>
+            android:label="ЗИП ARC 200" />
         <activity
             android:name=".parts.arc_models.ARC_165_mini_parts"
             android:exported="false"
-            android:label="ЗИП ARC 165 mini"/>
+            android:label="ЗИП ARC 165 mini" />
         <activity
             android:name=".parts.arc_models.ARC_160_ROL_parts"
             android:exported="false"
-            android:label="ЗИП ARC 160"/>
+            android:label="ЗИП ARC 160" />
         <activity
             android:name=".parts.tig_models.WSME_315WC_parts"
             android:exported="false"
@@ -239,8 +249,8 @@
             android:label="Ручная дуговая сварка" />
         <activity
             android:name=".Splash_screen"
-            android:theme="@style/Theme.FixIt.NoActionBar"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.FixIt.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

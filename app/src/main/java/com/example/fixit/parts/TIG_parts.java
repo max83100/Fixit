@@ -18,6 +18,7 @@ import com.example.fixit.parts.tig_models.TIG_200_EN_parts;
 import com.example.fixit.parts.tig_models.TIG_400_parts;
 import com.example.fixit.parts.tig_models.WSME_200E_parts;
 import com.example.fixit.parts.tig_models.WSME_200W_parts;
+import com.example.fixit.parts.tig_models.WSME_200_LCD_parts;
 import com.example.fixit.parts.tig_models.WSME_200_P_parts;
 import com.example.fixit.parts.tig_models.WSME_200_parts;
 import com.example.fixit.parts.tig_models.WSME_315WC_parts;
@@ -29,7 +30,7 @@ public class TIG_parts extends AppCompatActivity {
     String[] names = { "ENERGY TIG /MMA180HF", "GROVERS TIG 200 DC PULSE",
             "GROVERS ENERGY TIG200 AC/DC DOUBLE PULSE", "GROVERS WSME 200P AC/DC" ,"GROVERS WSME 200E AC/DC" , "GROVERS WSME-200 AC/DC"
             , "GROVERS WSME-200W", "GROVERS WSME315W", "GROVERS WSME315 WC"
-            , "GROVERS TIG 400 AC/DC"};
+            , "GROVERS TIG 400 AC/DC","GROVERS WSME-200 LCD"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,6 +101,12 @@ public class TIG_parts extends AppCompatActivity {
                         break;
                     case 9:
                         intent = new Intent(getApplicationContext(), TIG_400_parts.class);
+                        startActivity(intent);
+                        finish();
+                        overridePendingTransition(0, 0);
+                        break;
+                    case 10:
+                        intent = new Intent(getApplicationContext(), WSME_200_LCD_parts.class);
                         startActivity(intent);
                         finish();
                         overridePendingTransition(0, 0);
