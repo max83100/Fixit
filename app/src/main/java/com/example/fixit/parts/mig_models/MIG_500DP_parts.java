@@ -2,11 +2,13 @@ package com.example.fixit.parts.mig_models;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.example.fixit.R;
+import com.example.fixit.parts.MIG_parts;
 
 public class MIG_500DP_parts extends AppCompatActivity {
     ImageView mig_500dp_power_image;
@@ -48,5 +50,10 @@ public class MIG_500DP_parts extends AppCompatActivity {
                 .error(R.drawable.ic_launcher_foreground)
                 .into(mig_500dp_pump_image);
 
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), MIG_parts.class);
+        startActivity(intent);
+        overridePendingTransition(0,0);
     }
 }

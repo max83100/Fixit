@@ -63,9 +63,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:textIsSelectable="true"
-            android:text="Водяной насос \n артикул 5.496.821-D"
+            android:text="Водяной насос "
             android:textColor="#151515"
+            android:textIsSelectable="true"
             android:textSize="24sp" />
 
         <com.github.chrisbanes.photoview.PhotoView

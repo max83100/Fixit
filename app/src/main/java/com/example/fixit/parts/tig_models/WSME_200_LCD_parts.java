@@ -104,7 +104,7 @@ public class WSME_200_LCD_parts extends AppCompatActivity {
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(wsme200p_fan_image);
-        String url13 = "";
+        String url13 = "https://github.com/max83100/123/blob/main/spare_parts/WSME%20200P/%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D1%8F%D0%B7%D0%BA%D0%B8%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B8%205.496.821-D.jpg?raw=true";
         Glide.with(this).load(url13)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
