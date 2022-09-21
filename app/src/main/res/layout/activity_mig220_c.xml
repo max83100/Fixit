@@ -192,6 +192,29 @@
                 android:layout_height="wrap_content"
                 android:text="Проверьте транзисторы отмечающие за режим DС. Так же проверьте сигналы на шим контроллерах находящихся в верхней части платы " />
 
+            <TextView
+                android:id="@+id/current_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Выдаёт только половину от максимального тока"
+                android:textColor="#050505"
+                android:textSize="24sp" />
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/current_dont_work"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <TextView
+                android:id="@+id/current_resolve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Проверьте подключены ли у вас разхёмы отмеченные на фото, x2 идёт на плату управления
+х3 идёт на плату осциллятора. Для более подробной информации ипользуйте схему подключения всех разъёмов" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
