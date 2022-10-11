@@ -30,6 +30,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut100_s.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut100_sparts.xml" value="0.17395833333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut120.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut120_energy_parts.xml" value="0.18229166666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut120_parts.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut40.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut40_com.xml" value="0.19635416666666666" />
@@ -39,6 +40,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut45_pparts.xml" value="0.17" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut60.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut60_parts.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut60i_energy_parts.xml" value="0.18229166666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut_catalog.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_cut_parts.xml" value="0.17395833333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_energy_arc160.xml" value="0.19635416666666666" />
@@ -71,6 +73,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_mma200_gparts.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_multimig200_pfc.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_multimig200_pfc_parts.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_multimig200_rolwal.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_new_services.xml" value="0.1388888888888889" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_order_for_repair.xml" value="0.2" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Fixit/app/src/main/res/layout/activity_other.xml" value="0.2" />

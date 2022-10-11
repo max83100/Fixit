@@ -13,17 +13,19 @@ import com.example.fixit.R;
 import com.example.fixit.menu_java.Spare_parts;
 import com.example.fixit.parts.cut_models.CUT_100S_parts;
 import com.example.fixit.parts.cut_models.CUT_100_parts;
+import com.example.fixit.parts.cut_models.CUT_120_ENERGY_parts;
 import com.example.fixit.parts.cut_models.CUT_120_parts;
 import com.example.fixit.parts.cut_models.CUT_40_parts;
 import com.example.fixit.parts.cut_models.CUT_45P_parts;
 import com.example.fixit.parts.cut_models.CUT_60_parts;
+import com.example.fixit.parts.cut_models.CUT_60i_ENERGY_parts;
 
 public class CUT_parts extends AppCompatActivity {
     ListView listView;
     Intent intent;
     String[] names = { "GROVERS ENERGY CUT 45P", "GROVERS CUT40 - CUT 40com",
              "GROVERS CUT-60 CNC" , "GROVERS CUT100S"
-            ,"GROVERS CUT100", "GROVERS CUT 120CNC"};
+            ,"GROVERS CUT100", "GROVERS CUT 120CNC", "CUT 60i ENERGY","CUT 120 ENERGY"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +72,18 @@ public class CUT_parts extends AppCompatActivity {
                         break;
                     case 5:
                         intent = new Intent(getApplicationContext(), CUT_120_parts.class);
+                        startActivity(intent);
+                        finish();
+                        overridePendingTransition(0, 0);
+                        break;
+                    case 6:
+                        intent = new Intent(getApplicationContext(), CUT_60i_ENERGY_parts.class);
+                        startActivity(intent);
+                        finish();
+                        overridePendingTransition(0, 0);
+                        break;
+                    case 7:
+                        intent = new Intent(getApplicationContext(),CUT_120_ENERGY_parts.class);
                         startActivity(intent);
                         finish();
                         overridePendingTransition(0, 0);

@@ -17,6 +17,15 @@
         android:theme="@style/Theme.FixIt"
         tools:targetApi="n">
         <activity
+            android:name=".parts.cut_models.CUT_60i_ENERGY_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.cut_models.CUT_120_ENERGY_parts"
+            android:exported="false" />
+        <activity
+            android:name=".parts.mig_models.MULTIMIG_200_ROLWAL_parts"
+            android:exported="false" />
+        <activity
             android:name=".parts.mig_models.MIG_500DP_parts"
             android:exported="false" />
         <activity

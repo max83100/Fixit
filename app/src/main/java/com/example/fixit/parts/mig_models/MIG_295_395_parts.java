@@ -3,7 +3,10 @@ package com.example.fixit.parts.mig_models;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -20,6 +23,7 @@ public class MIG_295_395_parts extends AppCompatActivity {
     ImageView mig295_switch_image;
     ImageView mig295_switch2_image;
     ImageView mig295_transform_image;
+    Button inside;
 
 
     @Override
@@ -35,7 +39,8 @@ public class MIG_295_395_parts extends AppCompatActivity {
         mig295_switch_image = findViewById(R.id.mig295_switch_image);
         mig295_switch2_image = findViewById(R.id.mig295_switch2_image);
         mig295_transform_image = findViewById(R.id.mig295_transform_image);
-
+        inside = findViewById(R.id.mig295_inside);
+        inside.setOnClickListener(this::onClick);
 
         downloadImage();
     }
@@ -94,5 +99,13 @@ public class MIG_295_395_parts extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), MIG_parts.class);
         startActivity(intent);
         overridePendingTransition(0,0);
+    }
+    public void onClick(View v) {
+        if (v.getId() == R.id.mig295_inside) {
+            Uri address = Uri.parse(
+                    "https://drive.google.com/drive/folders/1t2QWZWwbgCv-QErniKytbtpFl4ztsqzh?usp=sharing");
+            Intent openlink = new Intent(Intent.ACTION_VIEW, address);
+            startActivity(openlink);
+        }
     }
 }
