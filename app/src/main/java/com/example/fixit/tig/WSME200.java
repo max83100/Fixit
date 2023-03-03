@@ -26,6 +26,12 @@ public class WSME200 extends AppCompatActivity implements View.OnClickListener {
                 Intent webmig = new Intent(Intent.ACTION_VIEW, webmig_uri);
                 startActivity(webmig);
                 break;
+            case(R.id.softwsme200):
+                Uri softmig_uri = Uri.parse(
+                        "https://drive.google.com/drive/folders/12xREMxvdvIXqYKvMkTdwRtPzUeWdpAGg?usp=share_link");
+                Intent softmig = new Intent(Intent.ACTION_VIEW, softmig_uri);
+                startActivity(softmig);
+                break;
 
         }
 

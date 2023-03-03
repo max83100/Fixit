@@ -12,6 +12,7 @@ import com.example.fixit.tig.ENERGY_TIG200;
 import com.example.fixit.tig.TIG200_DC;
 import com.example.fixit.tig.WSME200;
 import com.example.fixit.tig.WSME200E;
+import com.example.fixit.tig.WSME200LCD;
 import com.example.fixit.tig.WSME200P;
 import com.example.fixit.tig.WSME200W;
 import com.example.fixit.tig.WSME315W;
@@ -79,6 +80,12 @@ public class TIG_catalog extends AppCompatActivity implements View.OnClickListen
                 break;
             case R.id.tig_200dc:
                 intent = new Intent(this, TIG200_DC.class);
+                startActivity(intent);
+                finish();
+                overridePendingTransition(0,0);
+                break;
+            case R.id.wsme_200lcd:
+                intent = new Intent(this, WSME200LCD.class);
                 startActivity(intent);
                 finish();
                 overridePendingTransition(0,0);

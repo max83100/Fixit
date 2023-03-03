@@ -31,6 +31,12 @@ public class MIG200C extends AppCompatActivity implements View.OnClickListener {
                 Intent webmig200 = new Intent(Intent.ACTION_VIEW, webmig);
                 startActivity(webmig200);
                 break;
+            case(R.id.softmig200c):
+                Uri softmig = Uri.parse(
+                        "https://drive.google.com/drive/folders/1tVvS8r2pWSsHPtIwbbP9rz6xSr_V2GEP?usp=share_link");
+                Intent softmig200 = new Intent(Intent.ACTION_VIEW, softmig);
+                startActivity(softmig200);
+                break;
         }
     }
     public void onBackPressed() {

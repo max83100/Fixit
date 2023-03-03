@@ -18,6 +18,7 @@ import com.example.fixit.parts.mig_models.MIG350_500_parts;
 import com.example.fixit.parts.mig_models.MIG_160Energy_parts;
 import com.example.fixit.parts.mig_models.MIG_200C_parts;
 import com.example.fixit.parts.mig_models.MIG_200Energy_parts;
+import com.example.fixit.parts.mig_models.MIG_200_LCD_Rolwal;
 import com.example.fixit.parts.mig_models.MIG_200_parts;
 import com.example.fixit.parts.mig_models.MIG_220C_parts;
 import com.example.fixit.parts.mig_models.MIG_295_395_parts;
@@ -35,7 +36,8 @@ public class MIG_parts extends AppCompatActivity {
              "GROVERS MIG 200C - MIG 200P" , "GROVERS MIG 250T - MIG 315T"
             , "GROVERS MIG 250 - MIG 315",  "GROVERS MIG 295 - MIG 395"
             ,  "GROVERS MULTIMIG 200 PFC DUAL PULSE SYN",
-            "GROVERS MIG-220С AC/DC","GROVERS MIG/MMA - 350 - 500","GROVERS COMBO 200", "GROVERS MIG 500DP","MULTIMIG 200 ENERGY"};
+            "GROVERS MIG-220С AC/DC","GROVERS MIG/MMA - 350 - 500","GROVERS COMBO 200",
+            "GROVERS MIG 500DP","MULTIMIG 200 ENERGY","ENERGY MIG 200 LCD"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -124,6 +126,12 @@ public class MIG_parts extends AppCompatActivity {
                         break;
                     case 12:
                         intent = new Intent(getApplicationContext(), MULTIMIG_200_ROLWAL_parts.class);
+                        startActivity(intent);
+                        finish();
+                        overridePendingTransition(0, 0);
+                        break;
+                    case 13:
+                        intent = new Intent(getApplicationContext(), MIG_200_LCD_Rolwal.class);
                         startActivity(intent);
                         finish();
                         overridePendingTransition(0, 0);

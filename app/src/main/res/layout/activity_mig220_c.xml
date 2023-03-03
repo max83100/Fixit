@@ -36,6 +36,16 @@
                 android:text="@string/download" />
 
             <Button
+                android:id="@+id/softmig220c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_shape"
+                android:onClick="onClick"
+                android:text="Инструкции по прошивке" />
+
+            <Button
                 android:id="@+id/webmig220c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -215,6 +225,28 @@
                 android:text="Проверьте подключены ли у вас разхёмы отмеченные на фото, x2 идёт на плату управления
 х3 идёт на плату осциллятора. Для более подробной информации ипользуйте схему подключения всех разъёмов.
 Если все указанные разъёмы на месте то следует проверить выходные дидные модули" />
+
+            <TextView
+                android:id="@+id/power_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Аппарат выключается при работе в режиме полуавтомата"
+                android:textColor="#050505"
+                android:textSize="24sp" />
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/power_dont_work"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <TextView
+                android:id="@+id/power_resolve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Нужно заменить сопротивление резистора блока питания отмеченное на фото на 600 Ком" />
 
         </LinearLayout>
     </ScrollView>

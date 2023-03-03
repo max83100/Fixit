@@ -20,6 +20,7 @@ import com.example.fixit.parts.arc_models.ARC_315LT_parts;
 import com.example.fixit.parts.arc_models.ARC_315_parts;
 import com.example.fixit.parts.arc_models.ARC_400_parts;
 import com.example.fixit.parts.arc_models.MMA_200G_parts;
+import com.example.fixit.parts.arc_models.MMA_200_TEC_Rolwal;
 import com.example.fixit.parts.cut_models.CUT_100_parts;
 
 public class ARC_parts extends AppCompatActivity {
@@ -28,7 +29,7 @@ public class ARC_parts extends AppCompatActivity {
     String[] names = { "ENERGY ARC 165mini", "ENERGY ARC 160",
              "ENERGY ARC 200"
             , "GROVERS MMA-200G professional", "GROVERS ARC 160 PFC", "GROVERS ARC-250LT"
-            , "GROVERS ARC 300 ПДУ", "GROVERS ARC 400 ПДУ", "GROVERS ARC-315LT"};
+            , "GROVERS ARC 300 ПДУ", "GROVERS ARC 400 ПДУ", "GROVERS ARC-315LT","ENERGY MMA 200 TEC"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,6 +94,12 @@ public class ARC_parts extends AppCompatActivity {
                         break;
                     case 8:
                         intent = new Intent(getApplicationContext(), ARC_315LT_parts.class);
+                        startActivity(intent);
+                        finish();
+                        overridePendingTransition(0, 0);
+                        break;
+                    case 9:
+                        intent = new Intent(getApplicationContext(), MMA_200_TEC_Rolwal.class);
                         startActivity(intent);
                         finish();
                         overridePendingTransition(0, 0);

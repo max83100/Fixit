@@ -23,6 +23,7 @@ public class MIG220C extends AppCompatActivity {
     ImageView ac_problem2;
     ImageView dc_problem;
     ImageView current_dont_work;
+    ImageView power_dont_work;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,7 @@ public class MIG220C extends AppCompatActivity {
 
         hf_dont_work = findViewById(R.id.hf_dont_work);
         motor_power_pcb = findViewById(R.id.motor_power_pcb);
+        power_dont_work = findViewById(R.id.power_dont_work);
         String hf = "https://github.com/max83100/123/blob/main/problems/MIG220C_hf%20dont%20work.jpg?raw=true";
         Glide.with(this).load(hf)
                 .placeholder(R.drawable.ic_launcher_foreground)
@@ -90,6 +92,11 @@ public class MIG220C extends AppCompatActivity {
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(current_dont_work);
+        String url10 = "https://github.com/max83100/123/blob/main/problems/mig%20220c_power_problem.jpg?raw=true";
+        Glide.with(this).load(url10)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(power_dont_work);
 
 
     }
@@ -109,6 +116,12 @@ public class MIG220C extends AppCompatActivity {
                         "https://grovers.ru/catalog/pioner-2020-mig220c-acdc/grovers_mig_220s_ac_dc_/");
                 Intent webmig200 = new Intent(Intent.ACTION_VIEW, webmig);
                 startActivity(webmig200);
+                break;
+            case(R.id.softmig220c):
+                Uri softmig = Uri.parse(
+                        "https://drive.google.com/drive/folders/1VcX--qW9nTP6tjbmtsy5sQkcJQEkQawp?usp=share_link");
+                Intent softmig200 = new Intent(Intent.ACTION_VIEW, softmig);
+                startActivity(softmig200);
                 break;
         }
     }

@@ -33,6 +33,16 @@
                 android:onClick="onClick"
                 android:text="Обзор и характеристики" />
 
+            <Button
+                android:id="@+id/softwsme200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_shape"
+                android:onClick="onClick"
+                android:text="Инструкции по прошивке" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
