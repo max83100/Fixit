@@ -17,6 +17,9 @@
         android:theme="@style/Theme.FixIt"
         tools:targetApi="n">
         <activity
+            android:name=".mig.COMBO200"
+            android:exported="false" />
+        <activity
             android:name=".tig.WSME200LCD"
             android:exported="false" />
         <activity

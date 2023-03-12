@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.fixit.menu_java.Bottom;
+import com.example.fixit.mig.COMBO200;
 import com.example.fixit.mig.ENERGY_MIG160_200;
 import com.example.fixit.mig.MIG200;
 import com.example.fixit.mig.MIG200C;
@@ -91,6 +92,12 @@ public class MIG_catalog extends AppCompatActivity {
                 break;
             case R.id.emig160_200:
                 intent = new Intent(this, ENERGY_MIG160_200.class);
+                startActivity(intent);
+                finish();
+                overridePendingTransition(0,0);
+                break;
+            case R.id.combo200:
+                intent = new Intent(this, COMBO200.class);
                 startActivity(intent);
                 finish();
                 overridePendingTransition(0,0);

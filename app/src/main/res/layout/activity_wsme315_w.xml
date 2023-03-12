@@ -36,6 +36,16 @@
                 android:text="Скачать схемы и инструкции" />
 
             <Button
+                android:id="@+id/softwsme315w"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_shape"
+                android:onClick="onClick"
+                android:text="Инструкции по прошивке" />
+
+            <Button
                 android:id="@+id/webwsme315"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

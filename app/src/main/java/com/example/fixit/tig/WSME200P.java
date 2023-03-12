@@ -33,7 +33,7 @@ public class WSME200P extends AppCompatActivity implements View.OnClickListener 
                 break;
             case(R.id.softwsme200p):
                 Uri softmig_uri = Uri.parse(
-                        "");
+                        "https://drive.google.com/drive/folders/1E8NVEafi88R-NuRe_qqcPE7Yy_KJ3oo6?usp=share_link");
                 Intent softmig = new Intent(Intent.ACTION_VIEW, softmig_uri);
                 startActivity(softmig);
                 break;
