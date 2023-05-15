@@ -102,6 +102,12 @@ public class MIG_catalog extends AppCompatActivity {
                 finish();
                 overridePendingTransition(0,0);
                 break;
+            case R.id.mig220e:
+                intent = new Intent(this, MIG220E.class);
+                startActivity(intent);
+                finish();
+                overridePendingTransition(0,0);
+                break;
         }
     }
     public void onBackPressed() {

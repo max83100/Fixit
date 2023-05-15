@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parts.mig_models.MIG220E_parts">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/mig_220e_inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:text=" Фото внутренностей" />
+
+        <TextView
+            android:id="@+id/mig220e_front_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Лицевая панель \n артикул 5.122.153 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/mig220e_front_board_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/mig220e_front_board_image2"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig220e_control_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textIsSelectable="true"
+            android:text="Плата управления \n артикул 5.496.599-F-1 "
+            android:textColor="#151515"
+            android:textSize="24sp" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/mig220e_control_board_image1"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/mig220e_control_board_image2"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/mig220e_invertor_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Плата инвертора  "
+            android:textColor="#151515"
+            android:textIsSelectable="true"
+            android:textSize="24sp" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/mig220e_invertor_board_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/mig220e_invertor_board_image2"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/mig220e_invertor_board_image3"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/mig220e_invertor_board_image4"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/mig220e_invertor_board_image5"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/mig220e_invertor_board_image6"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    </LinearLayout>
+
+</ScrollView>

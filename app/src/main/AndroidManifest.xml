@@ -17,6 +17,12 @@
         android:theme="@style/Theme.FixIt"
         tools:targetApi="n">
         <activity
+            android:name=".MIG220E_parts"
+            android:exported="false" />
+        <activity
+            android:name=".MIG220E"
+            android:exported="false" />
+        <activity
             android:name=".mig.COMBO200"
             android:exported="false" />
         <activity

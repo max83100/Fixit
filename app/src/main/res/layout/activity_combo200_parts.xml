@@ -54,7 +54,7 @@
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <TextView
-            android:id="@+id/combo_200_front_board"
+            android:id="@+id/mig220e_front_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textIsSelectable="true"
@@ -65,14 +65,14 @@
             android:textSize="24sp" />
 
         <com.github.chrisbanes.photoview.PhotoView
-            android:id="@+id/combo_200_front_board_image"
+            android:id="@+id/mig220e_front_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/ic_launcher_foreground" />
         <com.github.chrisbanes.photoview.PhotoView
-            android:id="@+id/combo_200_front_board_image2"
+            android:id="@+id/mig220e_front_board_image2"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"
@@ -118,7 +118,7 @@
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <TextView
-            android:id="@+id/combo_200_control_board"
+            android:id="@+id/mig220e_control_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -129,7 +129,7 @@
             android:textSize="24sp" />
 
         <com.github.chrisbanes.photoview.PhotoView
-            android:id="@+id/combo_200_control_board_image"
+            android:id="@+id/mig220e_control_board_image1"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"
@@ -137,7 +137,7 @@
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <TextView
-            android:id="@+id/combo_200_invertor_board"
+            android:id="@+id/mig220e_invertor_board"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -148,7 +148,7 @@
             android:textSize="24sp" />
 
         <com.github.chrisbanes.photoview.PhotoView
-            android:id="@+id/combo_200_invertor_board_image"
+            android:id="@+id/mig220e_invertor_board_image"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"
@@ -156,7 +156,7 @@
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <com.github.chrisbanes.photoview.PhotoView
-            android:id="@+id/combo_200_invertor_board_image2"
+            android:id="@+id/mig220e_invertor_board_image2"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"
@@ -164,7 +164,7 @@
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <com.github.chrisbanes.photoview.PhotoView
-            android:id="@+id/combo_200_invertor_board_image3"
+            android:id="@+id/mig220e_invertor_board_image3"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"
@@ -172,7 +172,7 @@
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <com.github.chrisbanes.photoview.PhotoView
-            android:id="@+id/combo_200_invertor_board_image4"
+            android:id="@+id/mig220e_invertor_board_image4"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginBottom="20dp"

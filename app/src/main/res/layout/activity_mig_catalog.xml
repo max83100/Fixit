@@ -247,6 +247,25 @@
                 android:layout_weight="1"
                 android:onClick="onClick"
                 app:srcCompat="@drawable/combo200" />
+
+            <TextView
+                android:id="@+id/mig220e_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="MIG 220E"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/mig220e"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/combo200" />
         </LinearLayout>
     </ScrollView>
 

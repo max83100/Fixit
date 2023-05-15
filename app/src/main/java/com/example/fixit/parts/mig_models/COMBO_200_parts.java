@@ -10,7 +10,6 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.example.fixit.R;
 import com.example.fixit.parts.MIG_parts;
-import com.example.fixit.parts.TIG_parts;
 
 public class COMBO_200_parts extends AppCompatActivity {
     ImageView mig220c_dross_image;
@@ -35,15 +34,15 @@ public class COMBO_200_parts extends AppCompatActivity {
         setContentView(R.layout.activity_combo200_parts);
         mig220c_dross_image = findViewById(R.id.mig220c_dross_image);
         mig220c_polarity_image = findViewById(R.id.mig220c_polarity_image);
-        combo_200_front_board_image = findViewById(R.id.combo_200_front_board_image);
-        combo_200_front_board_image2 = findViewById(R.id.combo_200_front_board_image2);
+        combo_200_front_board_image = findViewById(R.id.mig220e_front_board_image);
+        combo_200_front_board_image2 = findViewById(R.id.mig220e_front_board_image2);
         mig220c_hf_board_image = findViewById(R.id.mig220c_hf_board_image);
         mig220c_buttons_board_image = findViewById(R.id.mig220c_buttons_board_image);
-        combo_200_control_board_image = findViewById(R.id.combo_200_control_board_image);
-        combo_200_invertor_board_image = findViewById(R.id.combo_200_invertor_board_image);
-        combo_200_invertor_board_image2 = findViewById(R.id.combo_200_invertor_board_image2);
-        combo_200_invertor_board_image3 = findViewById(R.id.combo_200_invertor_board_image3);
-        combo_200_invertor_board_image4 = findViewById(R.id.combo_200_invertor_board_image4);
+        combo_200_control_board_image = findViewById(R.id.mig220e_control_board_image1);
+        combo_200_invertor_board_image = findViewById(R.id.mig220e_invertor_board_image);
+        combo_200_invertor_board_image2 = findViewById(R.id.mig220e_invertor_board_image2);
+        combo_200_invertor_board_image3 = findViewById(R.id.mig220e_invertor_board_image3);
+        combo_200_invertor_board_image4 = findViewById(R.id.mig220e_invertor_board_image4);
         mig220c_plastic_front_image = findViewById(R.id.mig220c_plastic_front_image);
         mig220c_plastic_back_image = findViewById(R.id.mig220c_plastic_back_image);
         mig220c_mech_image = findViewById(R.id.mig220c_mech_image);
