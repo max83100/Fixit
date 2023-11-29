@@ -38,7 +38,8 @@ public class MIG_parts extends AppCompatActivity {
             , "GROVERS MIG 250 - MIG 315",  "GROVERS MIG 295 - MIG 395"
             ,  "GROVERS MULTIMIG 200 PFC DUAL PULSE SYN",
             "GROVERS MIG-220С AC/DC","GROVERS MIG/MMA - 350 - 500","GROVERS COMBO 200",
-            "GROVERS MIG 500DP","MULTIMIG 200 ENERGY","ENERGY MIG 200 LCD","GROVERS MIG 220 AC/DC" };
+            "GROVERS MIG 500DP","MULTIMIG 200 ENERGY","ENERGY MIG 200 LCD",
+            "GROVERS MIG-220E AC/DC"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -33,12 +33,12 @@ public class MIG220E extends AppCompatActivity implements View.OnClickListener {
                 Intent webmig200 = new Intent(Intent.ACTION_VIEW, webmig);
                 startActivity(webmig200);
                 break;
-            case (R.id.softmig220e):
-                Uri softmig = Uri.parse(
-                        "");
-                Intent softmig200 = new Intent(Intent.ACTION_VIEW, softmig);
-                startActivity(softmig200);
-                break;
+            //case (R.id.softmig220e):
+             //   Uri softmig = Uri.parse(
+             //           "");
+              //  Intent softmig200 = new Intent(Intent.ACTION_VIEW, softmig);
+              //  startActivity(softmig200);
+               // break;
         }
     }
         public void onBackPressed() {
@@ -47,4 +47,3 @@ public class MIG220E extends AppCompatActivity implements View.OnClickListener {
             overridePendingTransition(0,0);
         }
     }
-}

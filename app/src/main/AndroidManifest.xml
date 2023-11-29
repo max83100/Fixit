@@ -17,10 +17,16 @@
         android:theme="@style/Theme.FixIt"
         tools:targetApi="n">
         <activity
-            android:name=".MIG220E_parts"
+            android:name=".EMIG200LCD"
             android:exported="false" />
         <activity
-            android:name=".MIG220E"
+            android:name=".MMA200TEC"
+            android:exported="false" />
+        <activity
+            android:name=".parts.mig_models.MIG220E_parts"
+            android:exported="false" />
+        <activity
+            android:name=".mig.MIG220E"
             android:exported="false" />
         <activity
             android:name=".mig.COMBO200"

@@ -9,6 +9,7 @@ import android.view.View;
 import com.example.fixit.arc.ARC400;
 import com.example.fixit.arc.ENERGY_ARC160;
 import com.example.fixit.arc.ENERGY_ARC220;
+import com.example.fixit.arc.MMA200TEC;
 import com.example.fixit.menu_java.Bottom;
 
 public class ARC_catalog extends AppCompatActivity implements View.OnClickListener{
@@ -43,6 +44,13 @@ public class ARC_catalog extends AppCompatActivity implements View.OnClickListen
                 finish();
                 overridePendingTransition(0,0);
                 break;
+            case R.id.mma200tec:
+                intent = new Intent(this, MMA200TEC.class);
+                startActivity(intent);
+                finish();
+                overridePendingTransition(0,0);
+                break;
+
         }
     }
     public void onBackPressed() {

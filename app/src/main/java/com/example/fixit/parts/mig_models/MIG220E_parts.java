@@ -13,7 +13,7 @@ import com.bumptech.glide.Glide;
 import com.example.fixit.R;
 import com.example.fixit.parts.MIG_parts;
 
-public class MIG220E_parts extends AppCompatActivity {
+public class MIG220E_parts extends AppCompatActivity implements View.OnClickListener {
 
     ImageView mig220e_front_board_image;
     ImageView mig220e_front_board_image2;
@@ -33,7 +33,7 @@ public class MIG220E_parts extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mig220_eparts);
 
-        inside = findViewById(R.id.mig_500_inside);
+        inside = findViewById(R.id.mig_220e_inside);
         inside.setOnClickListener(this::onClick);
 
         mig220e_front_board_image = findViewById(R.id.mig220e_front_board_image);
@@ -64,7 +64,7 @@ public class MIG220E_parts extends AppCompatActivity {
                 .into(mig220e_control_board_image1);
 
         String url8 = "https://github.com/max83100/123/blob/main/spare_parts/MIG%20220E/%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%202.jpg?raw=true";
-        Glide.with(this).load(url6)
+        Glide.with(this).load(url8)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(mig220e_control_board_image2);

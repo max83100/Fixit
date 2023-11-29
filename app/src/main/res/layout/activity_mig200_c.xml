@@ -23,7 +23,7 @@
                 />
 
             <Button
-                android:id="@+id/linkmig200c"
+                android:id="@+id/linkmig220e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
@@ -33,7 +33,7 @@
                 android:text="@string/download" />
 
             <Button
-                android:id="@+id/softmig200c"
+                android:id="@+id/softmig220e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -43,7 +43,7 @@
                 android:text="Инструкции по прошивке" />
 
             <Button
-                android:id="@+id/webmig200c"
+                android:id="@+id/webmig220e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

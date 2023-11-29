@@ -8,11 +8,13 @@ import android.view.View;
 
 import com.example.fixit.menu_java.Bottom;
 import com.example.fixit.mig.COMBO200;
+import com.example.fixit.mig.EMIG200LCD;
 import com.example.fixit.mig.ENERGY_MIG160_200;
 import com.example.fixit.mig.MIG200;
 import com.example.fixit.mig.MIG200C;
 import com.example.fixit.mig.MIG200P;
 import com.example.fixit.mig.MIG220C;
+import com.example.fixit.mig.MIG220E;
 import com.example.fixit.mig.MIG250;
 import com.example.fixit.mig.MIG295;
 import com.example.fixit.mig.MIG315T;
@@ -104,6 +106,12 @@ public class MIG_catalog extends AppCompatActivity {
                 break;
             case R.id.mig220e:
                 intent = new Intent(this, MIG220E.class);
+                startActivity(intent);
+                finish();
+                overridePendingTransition(0,0);
+                break;
+            case R.id.emig200lcd:
+                intent = new Intent(this, EMIG200LCD.class);
                 startActivity(intent);
                 finish();
                 overridePendingTransition(0,0);

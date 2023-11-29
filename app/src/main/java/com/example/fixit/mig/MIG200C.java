@@ -20,18 +20,18 @@ public class MIG200C extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
 
-            case(R.id.linkmig200c):
+            case(R.id.linkmig220e):
                 Uri address = Uri.parse("https://drive.google.com/file/d/1c5HNq3xreAFAqAV5FnZIEpjsbheMPLy6/view?usp=sharing");
                 Intent openlink = new Intent(Intent.ACTION_VIEW, address);
                 startActivity(openlink);
                 break;
-            case(R.id.webmig200c):
+            case(R.id.webmig220e):
                 Uri webmig = Uri.parse(
                         "https://grovers.ru/catalog/MIG-MAG-svarka/poluavtomat-grovers-mig-200-c/");
                 Intent webmig200 = new Intent(Intent.ACTION_VIEW, webmig);
                 startActivity(webmig200);
                 break;
-            case(R.id.softmig200c):
+            case(R.id.softmig220e):
                 Uri softmig = Uri.parse(
                         "https://drive.google.com/drive/folders/1tVvS8r2pWSsHPtIwbbP9rz6xSr_V2GEP?usp=share_link");
                 Intent softmig200 = new Intent(Intent.ACTION_VIEW, softmig);
