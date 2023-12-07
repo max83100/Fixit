@@ -26,12 +26,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="ENERGY ARC 160"
+                android:text="ENERGY ARC 160 mini"
                 android:textColor="#151515"
                 android:textSize="24sp" />
 
             <ImageView
-                android:id="@+id/arc160"
+                android:id="@+id/arc160mini"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_weight="1"
@@ -39,22 +39,40 @@ android:onClick="onClick"
                 app:srcCompat="@drawable/energy_arc160" />
 
             <TextView
-                android:id="@+id/mma200tec_text"
+                android:id="@+id/earc160_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="ENERGY MMA 200 TEC"
+                android:text="ENERGY ARC 160 "
                 android:textColor="#151515"
                 android:textSize="24sp" />
 
             <ImageView
-                android:id="@+id/mma200tec"
+                android:id="@+id/earc160"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_weight="1"
                 android:onClick="onClick"
-                app:srcCompat="@drawable/mma200tec" />
+                app:srcCompat="@drawable/earc160" />
+
+            <TextView
+                android:id="@+id/earc200_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="ENERGY ARC 200"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/earc_200"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/button_shape" />
 
             <TextView
                 android:id="@+id/arc220_text"
@@ -76,6 +94,42 @@ android:onClick="onClick"
                 app:srcCompat="@drawable/energy_arc220" />
 
             <TextView
+                android:id="@+id/mma200tec_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="ENERGY MMA 200 TEC"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/mma200tec"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/mma200tec" />
+
+            <TextView
+                android:id="@+id/mma200g_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="ENERGY MMA 200 TEC"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/mma200g"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/button_shape" />
+
+            <TextView
                 android:id="@+id/arc400_text1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -93,6 +147,45 @@ android:onClick="onClick"
                 android:layout_weight="1"
                 android:onClick="onClick"
                 app:srcCompat="@drawable/arc300" />
+
+            <TextView
+                android:id="@+id/arc250lt_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="ARC 250LT - 315LT"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/arc_250lt"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/arc315lt" />
+
+            <TextView
+                android:id="@+id/arc400lt_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="ARC 400LT"
+                android:textColor="#151515"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/arc_400lt"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/arc400lt" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

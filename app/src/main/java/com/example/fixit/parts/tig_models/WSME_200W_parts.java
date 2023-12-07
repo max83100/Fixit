@@ -18,7 +18,8 @@ public class WSME_200W_parts extends AppCompatActivity {
     ImageView wsme200w_power_board_image;
     ImageView wsme200w_sec_invertor_board_image;
     ImageView wsme200w_first_invertor_board_image;
-    ImageView wsme200w_control_board_image;
+    ImageView wsme200w_control_board_image_old;
+    ImageView wsme200w_control_board_image_new;
     ImageView wsme200w_hf_board_image;
     ImageView wsme200w_fan_image;
     Button inside;
@@ -36,7 +37,8 @@ public class WSME_200W_parts extends AppCompatActivity {
         wsme200w_sec_invertor_board_image = findViewById(R.id.wsme200w_sec_invertor_board_image);
         wsme200w_first_invertor_board_image = findViewById(R.id.wsme200w_first_invertor_board_image);
         wsme200w_hf_board_image = findViewById(R.id.wsme200w_hf_board_image);
-        wsme200w_control_board_image = findViewById(R.id.wsme200w_control_board_image);
+        wsme200w_control_board_image_old = findViewById(R.id.wsme200w_control_board_image_old);
+        wsme200w_control_board_image_new = findViewById(R.id.wsme200w_control_board_image_new);
 
 
 downloadImage();
@@ -73,12 +75,17 @@ downloadImage();
         Glide.with(this).load(url7)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
-                .into(wsme200w_control_board_image);
+                .into(wsme200w_control_board_image_old);
         String url9 = "https://github.com/max83100/123/blob/main/spare_parts/%D0%B2%D0%B5%D0%BD%D1%82%D0%B8%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D1%8B/Wsme200.jpg?raw=true";
         Glide.with(this).load(url9)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(wsme200w_fan_image);
+        String url10 = "https://github.com/max83100/123/blob/main/spare_parts/WSME%20200W/new%20control%20board/20231129_122155.jpg?raw=true";
+        Glide.with(this).load(url10)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(wsme200w_control_board_image_new);
 
 
     }

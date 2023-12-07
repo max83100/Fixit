@@ -17,10 +17,10 @@
         android:theme="@style/Theme.FixIt"
         tools:targetApi="n">
         <activity
-            android:name=".EMIG200LCD"
+            android:name=".mig.EMIG200LCD"
             android:exported="false" />
         <activity
-            android:name=".MMA200TEC"
+            android:name=".arc.MMA200TEC"
             android:exported="false" />
         <activity
             android:name=".parts.mig_models.MIG220E_parts"
@@ -297,7 +297,7 @@
             android:name=".arc.ENERGY_ARC220"
             android:label="ENERGY ARC 220" />
         <activity
-            android:name=".arc.ENERGY_ARC160"
+            android:name=".arc.ENERGY_ARC160mini"
             android:label="ENERGY ARC 160" />
         <activity
             android:name=".mig.ENERGY_MIG160_200"

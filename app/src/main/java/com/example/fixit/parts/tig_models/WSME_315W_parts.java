@@ -19,7 +19,8 @@ public class WSME_315W_parts extends AppCompatActivity {
     ImageView wsme315w_power_board_image;
     ImageView wsme315w_sec_invertor_board_image;
     ImageView wsme315w_first_invertor_board_image;
-    ImageView wsme315w_control_board_image;
+    ImageView wsme315w_control_board_image_old;
+    ImageView wsme315w_control_board_image_new;
     ImageView wsme315w_hf_board_image;
     ImageView wsme315w_arc_board_image;
     ImageView wsme315w_fan_image;
@@ -36,7 +37,8 @@ public class WSME_315W_parts extends AppCompatActivity {
         wsme315w_sec_invertor_board_image = findViewById(R.id.wsme315w_sec_invertor_board_image);
         wsme315w_first_invertor_board_image = findViewById(R.id.wsme315w_first_invertor_board_image);
         wsme315w_hf_board_image = findViewById(R.id.wsme315w_hf_board_image);
-        wsme315w_control_board_image = findViewById(R.id.wsme315w_control_board_image);
+        wsme315w_control_board_image_old = findViewById(R.id.wsme315w_control_board_image_old);
+        wsme315w_control_board_image_new = findViewById(R.id.wsme315w_control_board_image_new);
         wsme315w_arc_board_image = findViewById(R.id.wsme315w_arc_board_image);
         wsme315w_fan_image = findViewById(R.id.wsme315w_fan_image);
 
@@ -73,7 +75,7 @@ public class WSME_315W_parts extends AppCompatActivity {
         Glide.with(this).load(url7)
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
-                .into(wsme315w_control_board_image);
+                .into(wsme315w_control_board_image_old);
         String url8 = "https://github.com/max83100/123/blob/main/spare_parts/WSME%20315W/%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20%D1%81%D1%82%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B4%D1%83%D0%B3%D0%B8%205.496.875-L-1.jpg?raw=true";
         Glide.with(this).load(url8)
                 .placeholder(R.drawable.ic_launcher_foreground)
@@ -84,6 +86,11 @@ public class WSME_315W_parts extends AppCompatActivity {
                 .placeholder(R.drawable.ic_launcher_foreground)
                 .error(R.drawable.ic_launcher_foreground)
                 .into(wsme315w_fan_image);
+        String url10 = "https://github.com/max83100/123/blob/main/spare_parts/WSME%20315W/new%20control%20board/photo_2023-11-29_12-52-06.jpg?raw=true";
+        Glide.with(this).load(url10)
+                .placeholder(R.drawable.ic_launcher_foreground)
+                .error(R.drawable.ic_launcher_foreground)
+                .into(wsme315w_control_board_image_new);
 
     }
 
